@@ -1,3 +1,19 @@
+1. Include wording ”OR TRANSFER”. So calling for admission OR TRANSFER.
+
+2. Change wordidng to “(general wards, or stepdown OR MICU, any hosp setting)”. Would have to change (3a) as well, “physically moves to icu *if* plan was SDU or Ward.
+
+3. Fix typo Ddefined
+
+4. Define (3e) as: certain Charge code for intubate, or Charge code for CPR, or order for any pressor meds.
+
+5. Note that (3b) Rapids aren’t generally called in ER. May be challenging... but you would see something [SB will discuss with Dr. Guy] like pts with a “change in status”--usually meaning a transfer order from MedSurg to ICU or similar.
+
+
+
+
+
+
+
 % ER Boarder Escalation Trigger
 % 2023-11-07
 % Andrew Zimolzak, MD, MMSc
