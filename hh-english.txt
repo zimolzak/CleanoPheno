@@ -1,12 +1,8 @@
 % ER Boarder Escalation Trigger
-% 2023-11-07
+% 2023-11-08
 % Andrew Zimolzak, MD, MMSc
 
 Adapted from Bhise *et al. BMJ Qual Saf* 2018;**27**:241--246.
-
-Escalation to higher order of care:
-: admission destination changed from floor to ICU in a low-risk ER boarder.
-
 
 
 
@@ -18,27 +14,31 @@ adjusted according to the needs of the user.
 
 Record included if *all* the following criteria are identified:
 
-1. Has an ER visit. Defined as ER arrival time within a certain date
-range. Dates for pilot data pull: tentatively **2023-01-01 to 2023-06-30**
+1. Has an ER visit. Defined as: ER arrival time within a certain date
+range. Dates for pilot data pull: tentatively **2023-01-01 to
+2023-06-30**
 
-2. Boarder in the ER. Defined as anyone still physically in the ER **6
-hours** or more from the time of calling for admission or transfer 
-(to general wards, or stepdown OR MICU, any hosp setting)
-
-
-
+2. Boarder in the ER. Defined as: anyone still physically in the ER
+**6 hours** or more from the time of calling for admission or
+transfer. (This includes calling for admission to general wards, or
+step-down, or ICU: really admission to any hospital setting.)
 
 3. Escalation (*any* of the following):
 
-    a. Physically moves to ICU (including "change of bed type"), physically moves to icu *if* plan was SDU or Ward.
+    a. Physically moves to ICU, *if* initial admission plan was
+    step-down or general wards.
 
-    b. pts with a "change in status"---usually meaning a transfer order from MedSurg to ICU or similar.
+    b. Has a "change in status" or "change in bed type." Defined as: a
+    transfer order from general wards to ICU (or from step-down to
+    ICU).
 
     c. Crisis escalation
 
     d. Has a procedure in the OR
 
-    e. Intubated, pressors, or code blue in ER. Defined as: certain Charge code for intubate, or Charge code for CPR, or order for any pressor meds.
+    e. Intubated, pressors, or code blue in ER. Defined as: certain
+    charge codes for intubation, or charge code(s) for CPR, or an
+    order in the ER for any pressor medications. (Codes TBD later.)
 
 
 
@@ -48,10 +48,10 @@ hours** or more from the time of calling for admission or transfer
 Record excluded if *any* of the following criteria are identified on
 date of ER arrival:
 
-- Age less than 18 or Age over **65**
+- Age less than 18 or age over **65** years
 
 Record excluded if *any* of the following criteria are identified
-Within **one year** prior to ER arrival:
+within **one year** prior to ER arrival:
 
 - Charlson Comorbidity Index greater than or equal to **2**, (using
   ICD-10 diagnosis codes for encounters)
