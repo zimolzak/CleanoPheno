@@ -1,2 +1,2 @@
-hh.docx: hh-english.txt
+er-boarder-escalation.docx: er-boarder-escalation.md
 	pandoc -o $@ $<
