@@ -1,0 +1,58 @@
+% ER Boarder Escalation Trigger
+% 2023-11-07
+% Andrew Zimolzak, MD, MMSc
+
+Adapted from Bhise *et al. BMJ Qual Saf* 2018;**27**:241--246.
+
+Escalation to higher order of care:
+: admission destination changed from floor to ICU in a low-risk ER boarder.
+
+
+
+
+
+# Inclusion Criteria
+
+Anything in bold text below is a "fill in the blank" that can be
+adjusted according to the needs of the user.
+
+Record included if *all* the following criteria are identified:
+
+1. Has an ER visit. Ddefined as ER arrival time within a certain date
+range. Dates for pilot data pull: tentatively **2023-01-01 to 2023-06-30**
+
+2. Boarder in the ER. Defined as anyone still physically in the ER **6
+hours** or more from the time of calling for admission (to general
+wards or step-down).
+
+3. Escalation (*any* of the following):
+
+    a. Physically moves to ICU (including "change of bed type")
+
+    b. Rapid response
+
+    c. Crisis escalation
+
+    d. Has a procedure in the OR
+
+    e. Intubated, pressors, or code blue in ER
+
+
+
+
+# Exclusion Criteria
+
+Record excluded if *any* of the following criteria are identified on
+date of ER arrival:
+
+- Age less than 18 or Age over **65**
+
+Record excluded if *any* of the following criteria are identified
+Within **one year** prior to ER arrival:
+
+- Charlson Comorbidity Index greater than or equal to **2**, (using
+  ICD-10 diagnosis codes for encounters)
+
+- More than **3** hospitalizations
+
+- Hospice
