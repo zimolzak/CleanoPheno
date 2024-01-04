@@ -114,4 +114,8 @@ other vent management? 94660, 94662?
 
 - 92950, heart/lung resuscitation cpr
 
-Others to include? Cardioversion 92960, defibrillation?? "Emergent cardioversion or defibrillation is not a separately reportable service. Defibrillation is included in the cardiopulmonary resuscitation service." Pacing?
+Others to include? Cardioversion is 92960. What about defibrillation?
+No, because "Emergent cardioversion or defibrillation is not a
+separately reportable service. Defibrillation is included in the
+cardiopulmonary resuscitation service," according to AAPC.com. So how
+about pacing?
