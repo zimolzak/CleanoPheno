@@ -4,20 +4,34 @@
 
 # Criteria
 
-Discharged from ED to home (exclude SNF) then return to ED and is
-admitted to ICU, OR, or admission with surgical or another procedure
-within $X$ days.
+Must have all of the following:
 
-- Include any readmission, regardless of timeframe, but within 5 days.
+1. Discharged from Emergency Department to home (exclude discharge from
+ED to skilled nursing facility), and then
+
+2. return to ED, and
+
+3. is admitted to ICU, Operating Room, or admission with surgical or another
+procedure,
+
+4. within **X days** of first ED visit
+
+
+
+
+# Modifications
+
+- Include any readmission, regardless of timeframe, but within **5 days**.[^question]
 - Exclude elective returns.
 - Include patients with malignancies.
-- ICU readmission within 3 days
-- OR/ Procedure within 7 days
+- ICU readmission within **3 days**
+- OR/Procedure within **7 days**
 
-- Exclude patients with diagnosis on initial visit (in problem list or
-  prior inpatient/outpatient encounter diagnosis codes) of the
-  following. The intent is to target "conditions that result in
-  expectant waiting," or conditions that are expected to recur.
+- Exclude patients with the presence of any of the following diagnoses
+  at the time of the initial ED visit. Diagnoses can be in problem
+  list or prior inpatient/outpatient encounter diagnosis codes. The
+  intent is to target "conditions that result in expectant waiting,"
+  or conditions that are expected to recur. See definitions below.
 
     - Cholelithiasis
     - Biliary colic
@@ -25,6 +39,10 @@ within $X$ days.
     - LVAD patients
 
 - Consider age in future/ build option
+
+[^question]: What does "regardless of timeframe" mean? Also, how can
+"within 5 days" work, when later there are different time intervals
+specified for ICU and OR (3 or 7 days)?
 
 
 
@@ -34,7 +52,7 @@ within $X$ days.
 ## Cholelithiasis
 
 I assume we will *not* put cholecystitis in this definition. In other
-words, don't exclude acute chole, because standard of care is
+words, don't exclude acute cholecystitis, because standard of care is
 admission and surgery or percutaneous drainage.
 
 - K80.20 Calculus of gallbladder without cholecystitis, without obstruction
@@ -51,7 +69,7 @@ admission and surgery or percutaneous drainage.
 
 ## Biliary colic
 
-This should be covered already by the codes above, in particulary K80.2*.
+This should be covered already by the codes above, in particular K80.2*.
 
 
 
@@ -76,6 +94,7 @@ This should be covered already by the codes above, in particulary K80.2*.
 
 - Z45.09 Encounter for adjustment and management of other cardiac device
 - Z95.811 Presence of heart assist device
+
 
 
 
