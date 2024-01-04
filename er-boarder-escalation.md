@@ -59,3 +59,59 @@ within **one year** prior to ER arrival:
 - More than **3** hospitalizations
 
 - Hospice
+
+
+
+
+# Definitions
+
+## Pressors
+
+An order for any medication matching the following substrings:
+
+- norepinephrine
+- noradrenaline
+- Levophed
+- epinephrine
+- adrenaline
+- Adrenalin
+- phenylephrine (*only* if given intravenously, *not* nasal, topical, or ophthalamic)
+- Neo-Synephrine (IV only: same exclusion as above)
+- dopamine
+- Inotropin
+- vasopressin
+- Pitressin
+- dobutamine
+- Dobutrex
+- milrinone
+- Primacor
+
+Including all of these may be "overkill." For example, I'm not sure
+how often the inotropes for cardiogenic shock are really used in the
+ER setting.
+
+
+
+
+## Intubation
+
+- 31500, insert emergency airway (intubation, endotracheal)
+- 94002, vent mgmt initial day
+- 94003, vent mgmt subsequent day
+- 94656, initial ventilator mgmt
+- 94657, continued ventilator mgmt
+
+Probably no laryngoscopy (almost all operative).[^lary]
+
+[^lary]: aapc.com/codes/coding-newsletters/my-otolaryngology-coding-alert/ throat-keep-this-laryngoscopy-primer-on-hand-for-distinguishing-three-types-135090-article
+
+other vent management? 94660, 94662?
+
+
+
+
+## Code blue (CPR)
+
+- 92950, heart/lung resuscitation cpr
+
+Others to include? Cardioversion 92960, defibrillation?? "Emergent cardioversion or defibrillation is not a separately reportable service. Defibrillation is included in the cardiopulmonary resuscitation service." Pacing?
