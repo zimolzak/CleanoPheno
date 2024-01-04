@@ -23,3 +23,39 @@ within $X$ days.
 
 
 
+# cholelithiasis
+
+- K80
+
+Make a "maybe not exclude" category. Like cholangitis.
+
+
+
+# biliary colic
+
+- R10.83 ?
+- K83.8
+- K83.9
+
+"maybe not exclude" category.
+
+
+
+# renal colic
+
+- N32
+
+(but consider : N20 Calculus of kidney and ureter; N21 Calculus of lower urinary tract; N22 Calculus of urinary tract in diseases classified elsewhere ) --> yes, exclue those N20 etc.
+
+
+
+# lvad
+
+- Z45.09 Encounter for adjustment and management of other cardiac device
+- Z95.811 Presence of heart assist device
+
+
+
+# They are targeting...
+
+> Conditions that result in expectant waiting. Or *expected to recur*
