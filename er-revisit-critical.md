@@ -2,28 +2,36 @@
 % 2024-01-04
 % Andrew Zimolzak, MD, MMSc
 
+# Criteria
 
 Discharged from ED to home (exclude SNF) then return to ED and is
 admitted to ICU, OR, or admission with surgical or another procedure
 within $X$ days.
-
-
 
 - Include any readmission, regardless of timeframe, but within 5 days.
 - Exclude elective returns.
 - Include patients with malignancies.
 - ICU readmission within 3 days
 - OR/ Procedure within 7 days
-- Exclude patients with diagnosis on initial visit (in problem list) of
+
+- Exclude patients with diagnosis on initial visit (in problem list or
+  prior inpatient/outpatient encounter diagnosis codes) of the
+  following. The intent is to target "conditions that result in
+  expectant waiting," or conditions that are expected to recur.
+
     - Cholelithiasis
     - Biliary colic
     - Renal colic
     - LVAD patients
+
 - Consider age in future/ build option
 
 
 
-# cholelithiasis
+
+# Definitions
+
+## Cholelithiasis
 
 - K80
 
@@ -31,7 +39,8 @@ Make a "maybe not exclude" category. Like cholangitis.
 
 
 
-# biliary colic
+
+## Biliary colic
 
 - R10.83 ?
 - K83.8
@@ -41,7 +50,8 @@ Make a "maybe not exclude" category. Like cholangitis.
 
 
 
-# renal colic
+
+## Renal colic
 
 - N32
 
@@ -49,13 +59,8 @@ Make a "maybe not exclude" category. Like cholangitis.
 
 
 
-# lvad
+
+## LVAD
 
 - Z45.09 Encounter for adjustment and management of other cardiac device
 - Z95.811 Presence of heart assist device
-
-
-
-# They are targeting...
-
-> Conditions that result in expectant waiting. Or *expected to recur*
