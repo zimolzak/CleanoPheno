@@ -3,7 +3,9 @@
 % Andrew Zimolzak, MD, MMSc
 
 
-
+Discharged from ED to home (exclude SNF) then return to ED and is
+admitted to ICU, OR, or admission with surgical or another procedure
+within $X$ days.
 
 
 
