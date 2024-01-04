@@ -1,0 +1,5 @@
+1. care escalation (floor to icu soon after er)
+2. ER, home, ER revisit, ICU or OR
+3. ICU readmission
+4. arrest/death in med/surg of full-code patient
+5. "ambulatory trigger"
