@@ -33,29 +33,41 @@ within $X$ days.
 
 ## Cholelithiasis
 
-- K80
+I assume we will *not* put cholecystitis in this definition. In other
+words, don't exclude acute chole, because standard of care is
+admission and surgery or percutaneous drainage.
 
-Make a "maybe not exclude" category. Like cholangitis.
+- K80.20 Calculus of gallbladder without cholecystitis, without obstruction
+- K80.21 Calculus of gallbladder without cholecystitis, with obstruction
+- K80.50 Calculus of bile duct without cholangitis or cholecystitis, without obstruction
+- K80.51 Calculus of bile duct without cholangitis or cholecystitis, with obstruction
+- K80.70 Calculus of gallbladder and bile duct without cholecystitis, without obstruction
+- K80.71 Calculus of gallbladder and bile duct without cholecystitis, with obstruction
+- K80.80 Other cholelithiasis without obstruction
+- K80.81 Other cholelithiasis with obstruction
 
 
 
 
 ## Biliary colic
 
-- R10.83 ?
-- K83.8
-- K83.9
-
-"maybe not exclude" category.
+This should be covered already by the codes above, in particulary K80.2*.
 
 
 
 
 ## Renal colic
 
-- N32
-
-(but consider : N20 Calculus of kidney and ureter; N21 Calculus of lower urinary tract; N22 Calculus of urinary tract in diseases classified elsewhere ) --> yes, exclue those N20 etc.
+- N20.0 Calculus of kidney
+- N20.1 Calculus of ureter
+- N20.2 Calculus of kidney with calculus of ureter
+- N20.9 Urinary calculus, unspecified
+- N21.0 Calculus in bladder
+- N21.1 Calculus in urethra
+- N21.8 Other lower urinary tract calculus
+- N21.9 Calculus of lower urinary tract, unspecified
+- N22 Calculus of urinary tract in diseases classified elsewhere
+- N23 Unspecified renal colic
 
 
 
@@ -64,3 +76,16 @@ Make a "maybe not exclude" category. Like cholangitis.
 
 - Z45.09 Encounter for adjustment and management of other cardiac device
 - Z95.811 Presence of heart assist device
+
+
+
+# Do not exclude
+
+- anything under K80.* that mentions
+    - with acute cholecystitis (K80.0*)
+    - with chronic cholecystitis  (K80.1*)
+    - with acute and chronic cholecystitis  (K80.1*)
+    - with cholangitis (K80.3*) acute and/or chronic
+    - with cholecystitis unspecified (K80.4*)
+    - with acute and/or chronic cholecystitis (K80.6*)
+- never use R10.83 "colic," because that is specific to pediatrics only.
