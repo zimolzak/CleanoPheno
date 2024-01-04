@@ -22,7 +22,7 @@ procedure,
 # Modifications
 
 - Include any readmission, regardless of timeframe, but within **5 days**.[^question]
-- Exclude elective returns.
+- Exclude elective returns.[^elec]
 - Include patients with malignancies.
 - ICU readmission within **3 days**
 - OR/Procedure within **7 days**
@@ -44,6 +44,7 @@ procedure,
 "within 5 days" work, when later there are different time intervals
 specified for ICU and OR (3 or 7 days)?
 
+[^elec]: See "Planned procedure list" from prior e-trigger called "ML 2" by BCM.
 
 
 
