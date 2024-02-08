@@ -1,15 +1,9 @@
 .PHONY: all clean
 
-files = er-boarder-escalation.docx er-revisit-critical.docx
-files += er-boarder-escalation.pdf er-revisit-critical.pdf
-
-all: $(files)
-
-%.docx: %.md
-	pandoc -o $@ $<
-
-%.pdf: %.md
-	pandoc -o $@ $<
+all:
+	$(MAKE) -C outputs
 
 clean:
-	rm -f $(files)
+	rm -f outputs/*.docx outputs/*.pdf outputs/*.txt
+	rm -f *~
+
