@@ -5,10 +5,10 @@ files += er-boarder-escalation.pdf er-revisit-critical.pdf
 
 all: $(files)
 
-%.docx: %.md
+%.docx: ../src/%.md
 	pandoc -o $@ $<
 
-%.pdf: %.md
+%.pdf: ../src/%.md
 	pandoc -o $@ $<
 
 clean:
