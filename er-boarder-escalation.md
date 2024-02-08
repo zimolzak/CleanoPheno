@@ -1,5 +1,5 @@
 % ER Boarder Escalation Trigger
-% 2024-01-19
+% 2024-02-08
 % Andrew Zimolzak, MD, MMSc; Sarah Bezek, MD
 
 Adapted from Bhise *et al. BMJ Qual Saf* 2018;**27**:241--246.
