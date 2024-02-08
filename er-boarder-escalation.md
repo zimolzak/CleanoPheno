@@ -19,9 +19,10 @@ range. Dates for pilot data pull: tentatively **2023-01-01 to
 2023-06-30**
 
 2. Boarder in the ER. Defined as: anyone still physically in the ER
-**6 hours** or more from the time of calling for admission or
-transfer to outside facility. (This includes calling for admission to general wards, or
-step-down, or ICU: really admission to any hospital setting.)
+**6 hours** or more from the time of calling for admission or transfer
+to outside facility. (This includes calling for admission to general
+wards, or step-down, or ICU: really admission to any hospital
+setting.)
 
 3. Escalation (*any* of the following):
 
@@ -32,7 +33,8 @@ step-down, or ICU: really admission to any hospital setting.)
     transfer order from general wards to ICU (or from step-down to
     ICU).
 
-    c. Crisis escalation in patient not initially identified as psych, 1:1 sitter or group supervision
+    c. Crisis escalation in patient not initially identified as psych,
+    1:1 sitter or group supervision
 
     d. Has an unexpected procedure in the OR, IR suite or catheterization lab
 
@@ -88,10 +90,6 @@ An order for any medication matching the following substrings:
 - milrinone
 - Primacor
 
-Including all of these may be "overkill." For example, I'm not sure
-how often the inotropes for cardiogenic shock are really used in the
-ER setting.
-
 
 
 
@@ -106,44 +104,41 @@ ER setting.
 
 
 
+## Code blue, CPR, and other critical condition codes
 
-## Code blue (CPR)
+- 92950, heart/lung resuscitation CPR (CPT)
+- I46.9, cardiac arrest, cause unspecified (ICD-10)
+- I46.2, cardiac arrest due to underlying cardiac condition (ICD-10)
+- I46.8, cardiac arrest, cause unspecified (ICD-10)
+- 36556, insertion of central line, non-tunneled (CPT)
+- 36558, insertion of central line, tunneled (CPT)
+- 36620, insertion of arterial line (CPT)
+- 92960, cardioversion (CPT)
 
-- 92950, heart/lung resuscitation cpr, CPT code for procedure
-- I46.9 – (ICD-10-CM Diagnosis Code for "Cardiac arrest, cause unspecified")
-- I46.2
-- I46.8 (note that in the last 3 cases, the first character is the letter "I")
-
-Insertion of Central line (CPT)
-
-- 36556 - non-tunneled
-- 36558 - tunneled (we place these for dialysis)
-
-Insertion of arterial line (CPT)
-
-- 36620
-
-Cardioversion (CPT)
-
-- 92960
+(Note that for cardiac arrest ICD codes, the first character is the
+letter "I".)
 
 
 
 
 # Notes
 
-The following codes were deemed to be *not* relevant for this e-trigger.
+The following codes were deemed to be *not* relevant for this
+e-trigger. We retain them here to explain our rationale.
 
-Laryngoscopy (not relevant because almost all are operative).[^lary]
+- Laryngoscopy: not relevant because almost all are operative.[^lary]
+
+- "Other vent management" CPT codes not relevant (94660, 94662).
+
+- Defibrillation not relevant because "Emergent cardioversion or
+defibrillation is not a separately reportable service. Defibrillation
+is included in the cardiopulmonary resuscitation service," according
+to AAPC.com.
+
+- Pacing: would be hard to add as it's only counted if actual wire
+inserted. So transcutaneous doesn't count, and rarely float pacemakers
+in the EC at this point.
+
 
 [^lary]: aapc.com/codes/coding-newsletters/my-otolaryngology-coding-alert/ throat-keep-this-laryngoscopy-primer-on-hand-for-distinguishing-three-types-135090-article
 
-"Other vent management" CPT codes not relevant (94660, 94662).
-
-What about defibrillation?
-No, because "Emergent cardioversion or defibrillation is not a
-separately reportable service. Defibrillation is included in the
-cardiopulmonary resuscitation service," according to AAPC.com. So how
-about pacing?
-
-*pacing would be hard to add as it’s only counted if actual wire inserted – so transcutaneous doesn’t count and rarely float pacemakers in the EC at this point
