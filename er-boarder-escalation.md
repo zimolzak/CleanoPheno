@@ -112,19 +112,20 @@ ER setting.
 - 92950, heart/lung resuscitation cpr, CPT code for procedure
 - I46.9 – (ICD-10-CM Diagnosis Code for "Cardiac arrest, cause unspecified")
 - I46.2
-- I46.8 (note that in these 3 cases, the first character is the letter "I")
+- I46.8 (note that in the last 3 cases, the first character is the letter "I")
 
 Insertion of Central line (CPT)
+
 - 36556 - non-tunneled
 - 36558 - tunneled (we place these for dialysis)
 
 Insertion of arterial line (CPT)
+
 - 36620
 
 Cardioversion (CPT)
+
 - 92960
-
-
 
 
 
