@@ -1,6 +1,6 @@
 % ER Boarder Escalation Trigger
-% 2023-11-08
-% Andrew Zimolzak, MD, MMSc
+% 2024-01-19
+% Andrew Zimolzak, MD, MMSc; Sarah Bezek, MD
 
 Adapted from Bhise *et al. BMJ Qual Saf* 2018;**27**:241--246.
 
@@ -20,7 +20,7 @@ range. Dates for pilot data pull: tentatively **2023-01-01 to
 
 2. Boarder in the ER. Defined as: anyone still physically in the ER
 **6 hours** or more from the time of calling for admission or
-transfer. (This includes calling for admission to general wards, or
+transfer to outside facility. (This includes calling for admission to general wards, or
 step-down, or ICU: really admission to any hospital setting.)
 
 3. Escalation (*any* of the following):
@@ -32,13 +32,15 @@ step-down, or ICU: really admission to any hospital setting.)
     transfer order from general wards to ICU (or from step-down to
     ICU).
 
-    c. Crisis escalation
+    c. Crisis escalation in patient not initially identified as psych, 1:1 sitter or group supervision
 
-    d. Has a procedure in the OR
+    d. Has an unexpected procedure in the OR, IR suite or catheterization lab
 
     e. Intubated, pressors, or code blue in ER. Defined as: certain
     charge codes for intubation, or charge code(s) for CPR, or an
     order in the ER for any pressor medications. (Codes TBD later.)
+
+    f. Unanticipated death in the Emergency Center
 
 
 
@@ -93,7 +95,7 @@ ER setting.
 
 
 
-## Intubation
+## Intubation (CPT)
 
 - 31500, insert emergency airway (intubation, endotracheal)
 - 94002, vent mgmt initial day
@@ -101,21 +103,46 @@ ER setting.
 - 94656, initial ventilator mgmt
 - 94657, continued ventilator mgmt
 
-Probably no laryngoscopy (almost all operative).[^lary]
-
-[^lary]: aapc.com/codes/coding-newsletters/my-otolaryngology-coding-alert/ throat-keep-this-laryngoscopy-primer-on-hand-for-distinguishing-three-types-135090-article
-
-other vent management? 94660, 94662?
 
 
 
 
 ## Code blue (CPR)
 
-- 92950, heart/lung resuscitation cpr
+- 92950, heart/lung resuscitation cpr, CPT code for procedure
+- I46.9 – (ICD-10-CM Diagnosis Code for "Cardiac arrest, cause unspecified")
+- I46.2
+- I46.8 (note that in these 3 cases, the first character is the letter "I")
 
-Others to include? Cardioversion is 92960. What about defibrillation?
+Insertion of Central line (CPT)
+- 36556 - non-tunneled
+- 36558 - tunneled (we place these for dialysis)
+
+Insertion of arterial line (CPT)
+- 36620
+
+Cardioversion (CPT)
+- 92960
+
+
+
+
+
+
+# Notes
+
+The following codes were deemed to be *not* relevant for this e-trigger.
+
+Laryngoscopy (not relevant because almost all are operative).[^lary]
+
+[^lary]: aapc.com/codes/coding-newsletters/my-otolaryngology-coding-alert/ throat-keep-this-laryngoscopy-primer-on-hand-for-distinguishing-three-types-135090-article
+
+"Other vent management" CPT codes not relevant (94660, 94662).
+
+What about defibrillation?
 No, because "Emergent cardioversion or defibrillation is not a
 separately reportable service. Defibrillation is included in the
 cardiopulmonary resuscitation service," according to AAPC.com. So how
 about pacing?
+
+*pacing would be hard to add as it’s only counted if actual wire inserted – so transcutaneous doesn’t count and rarely float pacemakers in the EC at this point
