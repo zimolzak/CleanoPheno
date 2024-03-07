@@ -39,7 +39,7 @@ colon_src += ../src/lung_pleura_cancer.md
 colon_src += ../src/hospice.md
 
 psa_src = ../src/psa-test-etrigger-criteria.md
-
+psa_src += ../src/hospice.md
 
 
 # main

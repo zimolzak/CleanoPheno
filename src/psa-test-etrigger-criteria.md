@@ -48,7 +48,7 @@ days after the diagnostic clue)
     k.  Patients who had lung cancer^24^
 
 4.  Patients who have ever **in the past or within 90 days after** the
-    diagnostic clue had an encounter for hospice/palliative care^25^
+    diagnostic clue had an encounter for hospice/palliative care[^hospice]
 
 5.  Patients who were diagnosed with prostatitis **within 30 days
     prior** to diagnostic clue^26^
@@ -137,12 +137,11 @@ C25.9; ICD-9: 157.xx
 ICD-9: 162.0, 162.2x, 162.3x, 162.4x, 162.5x, 162.8x, 162.9x, 163.xx,
 197.0, 197.2, 197.3 (where 'x' is any value)
 
-^25^ ICD-10: Z51.5, or consult code entry for completed
-hospice/palliative care consult, or consult with primary stop code 351
-or 353. ICD-9: V66.7
+
 
 ^26^ ICD-10 acute prostatitis: N41.0
 
 ^27^ CPT prostate biopsy: 55700
 
 ^28^ CPT urology evaluation and management: 99202-99499
+
