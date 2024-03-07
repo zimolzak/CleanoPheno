@@ -3,7 +3,7 @@
 files = er-boarder-escalation.docx er-revisit-critical.docx
 files += er-boarder-escalation.pdf er-revisit-critical.pdf
 files += discovery-manual.docx discovery-manual.pdf discovery-manual.md
-files += lung-icd10.md
+files += lung-icd10.md lung-icd10.docx lung-icd10.pdf
 
 discovery_src = ../src/discovery.md lung-icd10.md ../src/colon-icd10.md
 
@@ -37,6 +37,12 @@ all: $(files)
 
 
 ## specific rules
+
+lung-icd10.pdf: lung-icd10.md
+	pandoc -o $@ $<
+
+lung-icd10.docx: lung-icd10.md
+	pandoc -o $@ $<
 
 lung-icd10.md: $(lung_src)
 	cat $(lung_src) > $@
