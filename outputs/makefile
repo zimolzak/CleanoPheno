@@ -52,9 +52,9 @@ psa_src += ../src/pancreatic_cancer.md
 
 
 
-# main
-
 all: $(files)
+
+# .md file for pandoc is in src/ (no "cat" involved)
 
 er-%.docx: ../src/er-%.md
 	pandoc -o $@ $<
@@ -62,13 +62,7 @@ er-%.docx: ../src/er-%.md
 er-%.pdf: ../src/er-%.md
 	pandoc -o $@ $<
 
-# When .md file is in outputs/
-
-%.pdf: %.md
-	pandoc -o $@ $<
-
-%.docx: %.md
-	pandoc -o $@ $<
+# "cat" commands to make intermediate .md files
 
 lung-icd10.md: $(lung_src)
 	cat $(lung_src) > $@
@@ -79,10 +73,15 @@ colon-icd10.md: $(colon_src)
 psa-e-trigger.md: $(psa_src)
 	cat $(psa_src) > $@
 
+# When intermediate .md file is in outputs/
 
+%.pdf: %.md
+	pandoc -o $@ $<
 
+%.docx: %.md
+	pandoc -o $@ $<
 
-## clean
+# clean
 
 clean:
 	rm -f $(files)
