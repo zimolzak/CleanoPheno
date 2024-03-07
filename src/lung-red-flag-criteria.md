@@ -10,7 +10,7 @@ flagged by radiologist as "suspicious for malignancy"[^1]
 
 2. Then exclude patients \< 18 years old on imaging result date
 
-3. Then exclude patients listed as deceased[^2] within **30 days
+3. Then exclude patients listed as deceased (based on status in mortality table) within **30 days
 after** imaging result date
 
 4. Then exclude patients with active lung cancer diagnosis[^3] within
@@ -71,8 +71,6 @@ board conference[^21] **within 30 days after** imaging result date
 
 [^1]: CPT: X-Ray (71010, 71015, 71020, 71021, 71022, 71030, 71035,
 71101, 71111); CT (71275, 71250, 71270, 71260)
-
-[^2]: Based on status in mortality table
 
 [^3]: ICD-10 lung: C34.00, C34.01, C34.02, C34.10, C34.11, C34.12,
 C34.2, C34.30, C34.31, C34.32, C34.80, C34.81, C34.82, C34.90, C34.91,
