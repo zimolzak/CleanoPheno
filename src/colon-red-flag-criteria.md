@@ -29,7 +29,7 @@ after** test result date
 5. Then exclude patients with colectomy[^7] **any time prior to and 60
 days after** test result date
 
-6. Then exclude patients enrolled in hospice or palliative care[^8]
+6. Then exclude patients enrolled in hospice or palliative care[^hospice]
 within **1 year prior to and 60 days after** test result date
 
 7. Then exclude patients with a diagnosis of pancreatic cancer[^pancreatic_cancer] *or*
@@ -97,10 +97,6 @@ and 9)
 
 [^7]: ICD-10 colectomy: 0DTE4ZZ, 0DTE0ZZ, 0DTE7ZZ, 0DTE8ZZ; CPT: 44150,
 44151, 44155, 44156, 44157, 44158, 44202, 44210, 44211, 44212; ICD-9: 45.81, 45.82, 45.83
-
-[^8]: ICD-10: Z51.5, or consult code entry for completed
-hospice/palliative care consult, or consult with primary stop code 351
-or 353. ICD-9: V66.7
 
 
 

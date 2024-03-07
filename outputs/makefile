@@ -5,6 +5,7 @@ files += er-boarder-escalation.pdf er-revisit-critical.pdf
 
 files += lung-icd10.md lung-icd10.docx lung-icd10.pdf
 files += colon-icd10.md colon-icd10.docx colon-icd10.pdf
+files += psa-e-trigger.pdf psa-e-trigger.md
 
 lung_src = ../src/lung-red-flag-criteria.md ../src/pancreatic_cancer.md
 lung_src += ../src/biliary_cancer.md
@@ -34,7 +35,9 @@ colon_src += ../src/myeloma.md
 colon_src += ../src/tracheal_cancer.md
 colon_src += ../src/biliary_cancer.md
 colon_src += ../src/lung_pleura_cancer.md
+colon_src += ../src/hospice.md
 
+psa_src = ../src/psa-test-etrigger-criteria.md
 
 
 
@@ -61,6 +64,9 @@ lung-icd10.md: $(lung_src)
 
 colon-icd10.md: $(colon_src)
 	cat $(colon_src) > $@
+
+psa-e-trigger.md: $(psa_src)
+	cat $(psa_src) > $@
 
 
 
