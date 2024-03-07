@@ -45,7 +45,7 @@ days after the diagnostic clue)
 
     j.  Patients who had pancreatic cancer[^pancreatic_cancer]
 
-    k.  Patients who had lung cancer[^24]
+    k.  Patients who had lung cancer[^lung_pleura_cancer]
 
 4.  Patients who have ever **in the past or within 90 days after** the
     diagnostic clue had an encounter for hospice/palliative care[^hospice]
@@ -108,10 +108,6 @@ outcomes.
 [^19]: 
 
 [^21]: ICD-10 kidney: C64.9
-
-[^24]: ICD-10 lung: C34.0 to C34.3, C34.8, C34.9, C78.00, C78.01, C78.02;
-ICD-9: 162.0, 162.2x, 162.3x, 162.4x, 162.5x, 162.8x, 162.9x, 163.xx,
-197.0, 197.2, 197.3 (where 'x' is any value)
 
 [^26]: ICD-10 acute prostatitis: N41.0
 

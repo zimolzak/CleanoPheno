@@ -48,6 +48,7 @@ psa_src += ../src/gastric_cancer.md
 psa_src += ../src/brain_cancer.md
 psa_src += ../src/ovarian_cancer.md
 psa_src += ../src/pancreatic_cancer.md
+psa_src += ../src/lung_pleura_cancer.md
 
 
 
