@@ -43,7 +43,7 @@ uterine cancer[^uterine_cancer] *or*
 ovarian cancer[^ovarian_cancer] *or*
 peritoneal, omental, or mesenteric cancer[^peritoneal_cancer] *or*
 myeloma[^myeloma] *or*
-lung, bronchus, tracheal[^tracheal_cancer], or mesothelial cancer diagnosis[^20]
+lung, bronchus, pleural,[^lung_pleura_cancer] or tracheal[^tracheal_cancer] cancer diagnosis
 within **1 year prior to and 60 days after** test result date
 
 8. Then exclude patients with diagnosis of upper GI bleeding
@@ -107,8 +107,6 @@ or 353. ICD-9: V66.7
 
 
 
-[^20]: ICD-10 lung: C34.0 to C34.3, C34.8, C34.9, C78.00, C78.01, C78.02; ICD-9: 162.2x, 162.3x, 162.4x, 162.5x, 162.8x, 162.9x,
-163.xx, 197.0, 197.2 (where 'x' is any value)
 
 [^21]: ICD-10 hematemesis: K92.0, K22.11; ICD-9: 578.0
 

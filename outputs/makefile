@@ -18,6 +18,7 @@ lung_src += ../src/ovarian_cancer.md
 lung_src += ../src/peritoneal_cancer.md
 lung_src += ../src/tracheal_cancer.md
 lung_src += ../src/uterine_cancer.md
+lung_src += ../src/lung_pleura_cancer.md
 
 colon_src = ../src/colon-red-flag-criteria.md
 colon_src += ../src/pancreatic_cancer.md
@@ -32,6 +33,7 @@ colon_src += ../src/peritoneal_cancer.md
 colon_src += ../src/myeloma.md
 colon_src += ../src/tracheal_cancer.md
 colon_src += ../src/biliary_cancer.md
+colon_src += ../src/lung_pleura_cancer.md
 
 
 

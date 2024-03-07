@@ -13,7 +13,7 @@ flagged by radiologist as "suspicious for malignancy"[^1]
 3. Then exclude patients listed as deceased (based on status in mortality table) within **30 days
 after** imaging result date
 
-4. Then exclude patients with active lung cancer diagnosis[^3] within
+4. Then exclude patients with active lung cancer diagnosis[^lung_pleura_cancer] within
 **1 year prior to** imaging result date
 
 5. Then exclude patients with tuberculosis diagnosis[^4] within **1
@@ -71,11 +71,6 @@ board conference[^21] **within 30 days after** imaging result date
 
 [^1]: CPT: X-Ray (71010, 71015, 71020, 71021, 71022, 71030, 71035,
 71101, 71111); CT (71275, 71250, 71270, 71260)
-
-[^3]: ICD-10 lung: C34.00, C34.01, C34.02, C34.10, C34.11, C34.12,
-C34.2, C34.30, C34.31, C34.32, C34.80, C34.81, C34.82, C34.90, C34.91,
-C34.92, C78.00, C78.01, C78.02, C38.4, C45.0, C78.2; ICD-9: 162.2x, 162.3x, 162.4x, 162.5x, 162.8x, 162.9x, 197.0,
-163.xx, 197.2 (where 'x' is any value)
 
 [^4]: ICD-10 tuberculosis: A15.0, A15.5, A15.6, A15.7; ICD-9: 010.0x, 010.1x, 010.8x, 010.9x, 011.0x, 011.1x, 011.2x,
 011.3x, 011.4x, 011.5x, 011.6x, 011.7x, 011.8x, 011.9x (where 'x' is
