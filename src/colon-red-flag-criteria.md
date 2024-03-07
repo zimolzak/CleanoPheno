@@ -33,11 +33,17 @@ days after** test result date
 within **1 year prior to and 60 days after** test result date
 
 7. Then exclude patients with a diagnosis of pancreatic cancer ^9^ *or*
-leukemia (except acute lymphocytic) ^10^ *or* liver cancer ^11^ *or*
-biliary cancer ^12^ *or* esophageal cancer ^13^ *or* gastric cancer ^14^
-*or* brain cancer ^15^ *or* uterine cancer ^16^ *or* ovarian cancer ^17^
-*or* peritoneal, omental, or mesenteric cancer ^18^ *or* myeloma ^19^
-*or* lung, bronchus, tracheal, or mesothelial cancer diagnosis ^20^
+leukemia (except acute lymphocytic) ^10^ *or*
+liver cancer ^11^ *or*
+biliary cancer ^12^ *or*
+esophageal cancer ^13^ *or*
+gastric cancer ^14^ *or*
+brain cancer ^15^ *or*
+uterine cancer ^16^ *or*
+ovarian cancer ^17^ *or*
+peritoneal, omental, or mesenteric cancer ^18^ *or*
+myeloma ^19^ *or*
+lung, bronchus, tracheal, or mesothelial cancer diagnosis ^20^
 within **1 year prior to and 60 days after** test result date
 
 8. Then exclude patients with diagnosis of upper GI bleeding
