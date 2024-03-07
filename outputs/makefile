@@ -40,6 +40,16 @@ colon_src += ../src/hospice.md
 
 psa_src = ../src/psa-test-etrigger-criteria.md
 psa_src += ../src/hospice.md
+psa_src += ../src/leukemia.md
+psa_src += ../src/liver_cancer.md
+psa_src += ../src/biliary_cancer.md
+psa_src += ../src/esophageal_cancer.md
+psa_src += ../src/gastric_cancer.md
+psa_src += ../src/brain_cancer.md
+psa_src += ../src/ovarian_cancer.md
+psa_src += ../src/pancreatic_cancer.md
+
+
 
 
 # main
