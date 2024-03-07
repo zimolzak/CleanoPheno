@@ -19,7 +19,7 @@ after** imaging result date
 5. Then exclude patients with tuberculosis diagnosis[^4] within **1
 year prior to** and **30 days after** imaging result date
 
-6. Then exclude patients enrolled in hospice or palliative care[^5]
+6. Then exclude patients enrolled in hospice or palliative care[^hospice]
 within **1 year prior to** and **30 days after** imaging result date
 
 7. Then exclude patients with a diagnosis of pancreatic cancer[^pancreatic_cancer] *or*
@@ -75,10 +75,6 @@ board conference[^21] **within 30 days after** imaging result date
 [^4]: ICD-10 tuberculosis: A15.0, A15.5, A15.6, A15.7; ICD-9: 010.0x, 010.1x, 010.8x, 010.9x, 011.0x, 011.1x, 011.2x,
 011.3x, 011.4x, 011.5x, 011.6x, 011.7x, 011.8x, 011.9x (where 'x' is
 any value between 1 and 6)
-
-[^5]: ICD-10: Z51.5, or consult code entry for completed
-hospice/palliative care consult, or consult with primary stop code 351
-or 353. ICD-9: V66.7
 
 
 
