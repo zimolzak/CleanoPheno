@@ -2,6 +2,9 @@
 
 files = er-boarder-escalation.docx er-revisit-critical.docx
 files += er-boarder-escalation.pdf er-revisit-critical.pdf
+files += discovery-manual.docx discovery-manual.pdf discovery-manual.md
+
+discovery_src = ../src/discovery.md ../src/lung-icd10.md ../src/colon-icd10.md
 
 all: $(files)
 
@@ -9,6 +12,15 @@ all: $(files)
 	pandoc -o $@ $<
 
 %.pdf: ../src/%.md
+	pandoc -o $@ $<
+
+discovery-manual.md: $(discovery_src)
+	cat $(discovery_src) > $@
+
+discovery-manual.docx: discovery-manual.md
+	pandoc -o $@ $<
+
+discovery-manual.pdf: discovery-manual.md
 	pandoc -o $@ $<
 
 clean:
