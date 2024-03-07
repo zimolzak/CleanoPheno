@@ -6,7 +6,24 @@ files += discovery-manual.docx discovery-manual.pdf discovery-manual.md
 files += lung-icd10.md
 
 discovery_src = ../src/discovery.md lung-icd10.md ../src/colon-icd10.md
+
 lung_src = ../src/lung-red-flag-criteria.md ../src/pancreatic_cancer.md
+lung_src += ../src/biliary_cancer.md
+lung_src += ../src/brain_cancer.md
+lung_src += ../src/esophageal_cancer.md
+lung_src += ../src/gastric_cancer.md
+lung_src += ../src/leukemia.md
+lung_src += ../src/liver_cancer.md
+lung_src += ../src/myeloma.md
+lung_src += ../src/ovarian_cancer.md
+lung_src += ../src/peritoneal_cancer.md
+lung_src += ../src/tracheal_cancer.md
+lung_src += ../src/uterine_cancer.md
+
+
+
+
+# main
 
 all: $(files)
 
@@ -15,6 +32,9 @@ all: $(files)
 
 %.pdf: ../src/%.md
 	pandoc -o $@ $<
+
+
+
 
 ## specific rules
 
@@ -29,6 +49,9 @@ discovery-manual.docx: discovery-manual.md
 
 discovery-manual.pdf: discovery-manual.md
 	pandoc -o $@ $<
+
+
+
 
 ## clean
 
