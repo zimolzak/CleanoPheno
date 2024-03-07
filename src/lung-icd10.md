@@ -22,7 +22,7 @@ year prior to** and **30 days after** imaging result date
 6. Then exclude patients enrolled in hospice or palliative care ^5^
 within **1 year prior to** and **30 days after** imaging result date
 
-7. Then exclude patients with a diagnosis of pancreatic cancer ^6^ *or*
+7. Then exclude patients with a diagnosis of pancreatic cancer[^pancreatic_cancer] *or*
 leukemia (except acute lymphocytic) ^7^ *or* liver cancer ^8^ *or*
 biliary cancer ^9^ *or* esophageal cancer ^10^ *or* gastric cancer ^11^
 *or* brain cancer ^12^ *or* uterine cancer ^13^ *or* ovarian cancer ^14^
@@ -82,8 +82,7 @@ any value between 1 and 6)
 hospice/palliative care consult, or consult with primary stop code 351
 or 353. ICD-9: V66.7
 
-^6^ ICD-10 pancreatic: C25.0, C25.1, C25.2, C25.3, C25.4, C25.7,
-C25.8, C25.9; ICD-9: 157.xx
+
 
 ^7^ ICD-10 leukemia: C92.00, C92.4, C92.5, C92.60, C92.01, C92.41,
 C92.51, C92.02, C92.42, C92.52, C93.00, C93.01, C93.02, C94.00,
