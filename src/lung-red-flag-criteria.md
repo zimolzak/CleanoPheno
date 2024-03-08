@@ -50,28 +50,30 @@ and **30 days after** imaging result date
 
 # Expected follow-up criteria
 
-8. Then exclude patients with a repeated chest x-ray or CT[^1]
+Exclude patients with any of the following.
+
+8. Repeated chest x-ray or CT[^1]
 **within 30 days after** imaging result date
 
-9. Then exclude patients with a completed PET scan[^18] **within 30
+9. Completed PET scan[^18] **within 30
 days after** imaging result date
 
-10. Then exclude patients with a repeated pulmonary visit[^19]
+10. Repeated pulmonary visit[^19]
 **within 30 days after** imaging result date
 
-11. Then exclude patients with a completed thoracic surgery visit[^20]
+11. Completed thoracic surgery visit[^20]
 **within 30 days after** imaging result date
 
-12. Then exclude patients with a completed multidisciplinary tumor
+12. Completed multidisciplinary tumor
 board conference[^21] **within 30 days after** imaging result date
 
-13. Then exclude patients with a lung biopsy ^a^ performed **within
+13. Lung biopsy ^a^ performed **within
 30 days after** imaging result date
 
-14. Then exclude patients with a bronchoscopy ^b^ performed **within
+14. Bronchoscopy ^b^ performed **within
 30 days after** imaging result date
 
-15. Then exclude patients with a lung surgery ^c^ performed **within
+15. Lung surgery ^c^ performed **within
 30 days after** imaging result date
 
 

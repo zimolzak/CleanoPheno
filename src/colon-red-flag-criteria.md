@@ -21,55 +21,58 @@ test (FIT)[^4] result)
 
 # Exclusion criteria
 
-2. Then exclude patients \< 40 years old *or* \>75 years old on test
+Exclude patients with any of the following.
+
+2. Less than 40 years old *or* \>75 years old on test
 result date
 
-3. Then exclude patients listed as deceased (based on status in
+3. Listed as deceased (based on status in
 mortality table) within **60 days after** test result date
 
-4. Then exclude patients with active colon cancer diagnosis[^6] within
+4. Active colon cancer diagnosis[^6] within
 **1 year prior to** test result date
 
-5. Then exclude patients with colectomy[^7] **any time prior to and 60
+5. Colectomy[^7] **any time prior to and 60
 days after** test result date
 
-6. Then exclude patients enrolled in hospice or palliative
+6. Enrolled in hospice or palliative
 care[^hospice] within **1 year prior to and 60 days after** test
 result date
 
-7. Then exclude patients with
-pancreatic cancer[^pancreatic_cancer] *or*
-leukemia (except acute lymphocytic)[^leukemia] *or*
-liver cancer[^liver_cancer] *or*
-biliary cancer[^biliary_cancer] *or*
-esophageal cancer[^esophageal_cancer] *or*
-gastric cancer[^gastric_cancer] *or*
-brain cancer[^brain_cancer] *or*
-uterine cancer[^uterine_cancer] *or*
-ovarian cancer[^ovarian_cancer] *or*
-peritoneal, omental, or mesenteric cancer[^peritoneal_cancer] *or*
-myeloma[^myeloma] *or*
-lung, bronchus, pleural,[^lung_pleura_cancer] or
-tracheal[^tracheal_cancer] cancer diagnosed within **1 year prior to
-and 60 days after** test result date
+7. Any of the following diagnosed within
+**1 year prior to and 60 days after** test result date
 
-8. Then exclude patients with diagnosis of upper GI bleeding
+    - pancreatic cancer[^pancreatic_cancer] *or*
+    - leukemia (except acute lymphocytic)[^leukemia] *or*
+    - liver cancer[^liver_cancer] *or*
+    - biliary cancer[^biliary_cancer] *or*
+    - esophageal cancer[^esophageal_cancer] *or*
+    - gastric cancer[^gastric_cancer] *or*
+    - brain cancer[^brain_cancer] *or*
+    - uterine cancer[^uterine_cancer] *or*
+    - ovarian cancer[^ovarian_cancer] *or*
+    - peritoneal, omental, or mesenteric cancer[^peritoneal_cancer] *or*
+    - myeloma[^myeloma] *or*
+    - lung, bronchus, or pleural cancer[^lung_pleura_cancer]
+    - tracheal cancer[^tracheal_cancer]
+
+8. Diagnosis of upper GI bleeding
 (hematemesis)[^21] *or* ulcer of esophagus, stomach or duodenum with
 bleeding[^22] within **6 months prior to** the test result date
 
-9. Then exclude patients with colonoscopy[^23] **within 3 years prior
+9. Colonoscopy[^23] **within 3 years prior
 to** test result date
 
-10. Then for iron deficiency anemia only, exclude patients with
+10. For iron deficiency anemia only, exclude patients with
 menorrhagia[^24] *or* hematuria[^25] *or* epistaxis[^26] *or* uterine,
 cervical or vaginal bleeding[^27] *or* hemoptysis[^28] *or* secondary
 hemorrhage[^29] **within 6 months prior to** test result date
 
-11. Then for iron deficiency anemia only, exclude patients with
+11. For iron deficiency anemia only, exclude patients with
 diagnosis of pregnancy[^30] **within 1 year prior to or 60 days
 after** test result date
 
-12. Then for iron deficiency anemia only, exclude patients with
+12. For iron deficiency anemia only, exclude patients with
 thalassemia[^31] **any time prior to or within 60 days after** test
 result date
 
@@ -78,11 +81,18 @@ result date
 
 # Expected follow-up criteria
 
-13. Then exclude patients with a completed gastroenterology visit[^32]
+Exclude patients with any of the following.
+
+13. Completed gastroenterology visit[^32]
 **within 60 days after** test result date
 
-14. Then exclude patients with a colonoscopy[^23] performed **within
+14. Colonoscopy[^23] performed **within
 60 days after** test result date
+
+
+
+
+----
 
 
 
@@ -103,7 +113,6 @@ C18.5, C18.8, C18.9, C19, C20, C21.1, C21.0, C21.8; ICD-9: 153.xx,
 [^7]: ICD-10 colectomy: 0DTE4ZZ, 0DTE0ZZ, 0DTE7ZZ, 0DTE8ZZ; CPT:
 44150, 44151, 44155, 44156, 44157, 44158, 44202, 44210, 44211, 44212;
 ICD-9: 45.81, 45.82, 45.83
-
 
 [^21]: ICD-10 hematemesis: K92.0, K22.11; ICD-9: 578.0
 
