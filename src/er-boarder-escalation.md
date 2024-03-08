@@ -1,4 +1,4 @@
-% ER Boarder Escalation Trigger
+% ER Boarder Escalation e-Trigger
 % 2024-02-08
 % Andrew Zimolzak, MD, MMSc; Sarah Bezek, MD
 
