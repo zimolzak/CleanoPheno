@@ -28,8 +28,9 @@ Exclude patients with any of the following:
 
 2.  Previous prostate cancer (any prior diagnosis)[^prostate_cancer]
 
-3.  Terminal illnesses or recent major diagnoses within **one year
-    before or 90 days after** the index date, defined as any of the following:
+3. Terminal illnesses or recent major diagnoses within **one year
+    before or 90 days after** the index date, defined as any of the
+    following:
 
     - acute leukemia[^leukemia]
     - hepatocellular cancer[^liver_cancer]
@@ -44,15 +45,13 @@ Exclude patients with any of the following:
     - pancreatic cancer[^pancreatic_cancer]
     - lung cancer[^lung_pleura_cancer]
 
-4. **Ever in the past or within 90 days after** the
-    index date had an encounter for hospice/palliative
-    care[^hospice]
+4. **Ever in the past or within 90 days after** the index date had an
+    encounter for hospice/palliative care[^hospice]
 
-5.  Prostatitis **within 30 days
-    prior** to index date[^prostatitis]
+5. Prostatitis **within 30 days prior** to index date[^prostatitis]
 
-6.  Prostate biopsy performed **in the 2 years
-    prior** to index date[^prostate_biopsy]
+6. Prostate biopsy performed **in the 2 years prior** to index
+    date[^prostate_biopsy]
 
 
 
@@ -96,5 +95,6 @@ nasal cavity: C30.0, larynx: C32.9
 
 [^prostate_biopsy]: CPT prostate biopsy: 55700
 
-[^urology_visit]: CPT urology evaluation and management: 99202--99499  tk FIXME need Stop codes
+[^urology_visit]: CPT urology evaluation and management: 99202--99499
+tk FIXME need Stop codes
 
