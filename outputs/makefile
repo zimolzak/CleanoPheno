@@ -5,9 +5,9 @@ m = ../src/modules/
 files = er-boarder-escalation.docx er-revisit-critical.docx
 files += er-boarder-escalation.pdf er-revisit-critical.pdf
 
-files += lung-icd10.md lung-icd10.docx lung-icd10.pdf
-files += colon-icd10.md colon-icd10.docx colon-icd10.pdf
-files += psa-e-trigger.pdf psa-e-trigger.md
+files += lung-cancer-missed-tests.md lung-cancer-missed-tests.docx lung-cancer-missed-tests.pdf
+files += colon-cancer-missed-tests.md colon-cancer-missed-tests.docx colon-cancer-missed-tests.pdf
+files += prostate-cancer-missed-tests.pdf prostate-cancer-missed-tests.md
 
 lung_src = ../src/lung-red-flag-criteria.md
 lung_src += $(m)pancreatic_cancer.md
@@ -68,13 +68,13 @@ er-%.pdf: ../src/er-%.md
 
 # "cat" commands to make intermediate .md files
 
-lung-icd10.md: $(lung_src)
+lung-cancer-missed-tests.md: $(lung_src)
 	cat $(lung_src) > $@
 
-colon-icd10.md: $(colon_src)
+colon-cancer-missed-tests.md: $(colon_src)
 	cat $(colon_src) > $@
 
-psa-e-trigger.md: $(psa_src)
+prostate-cancer-missed-tests.md: $(psa_src)
 	cat $(psa_src) > $@
 
 # When intermediate .md file is in outputs/ (the current dir)
