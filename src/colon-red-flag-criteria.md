@@ -10,7 +10,8 @@ either of the following:
 
         i. hemoglobin less than or equal to 11 g/dL[^1]
 
-        ii. **and** mean corpuscular volume less than or equal to 81 fL[^2]
+        ii. **and** mean corpuscular volume less than or equal to 81
+        fL[^2]
 
         iii. **and** no ferritin greater than or equal to 100 ng/mL
         within 12 months before or 60 days after CBC (*i.e.,* ferritin
@@ -26,45 +27,42 @@ either of the following:
 
 Exclude patients with any of the following:
 
-2. Less than 40 years old *or* \>75 years old on test
-result date
+2. Less than 40 years old *or* \>75 years old on test result date
 
-3. Listed as deceased (based on status in
-mortality table) within **60 days after** test result date
-
-4. Active colon cancer diagnosis[^6] within
-**1 year prior to** test result date
-
-5. Colectomy[^7] **any time prior to and 60
+3. Listed as deceased (based on status in mortality table) within **60
 days after** test result date
 
-6. Enrolled in hospice or palliative
-care[^hospice] within **1 year prior to and 60 days after** test
+4. Active colon cancer diagnosis[^6] within **1 year prior to** test
 result date
 
-7. Any of the following diagnosed within
-**1 year prior to and 60 days after** test result date
+5. Colectomy[^7] **any time prior to and 60 days after** test result
+date
 
-    - pancreatic cancer[^pancreatic_cancer] *or*
-    - leukemia (except acute lymphocytic)[^leukemia] *or*
-    - liver cancer[^liver_cancer] *or*
-    - biliary cancer[^biliary_cancer] *or*
-    - esophageal cancer[^esophageal_cancer] *or*
-    - gastric cancer[^gastric_cancer] *or*
-    - brain cancer[^brain_cancer] *or*
-    - uterine cancer[^uterine_cancer] *or*
-    - ovarian cancer[^ovarian_cancer] *or*
-    - peritoneal, omental, or mesenteric cancer[^peritoneal_cancer] *or*
-    - myeloma[^myeloma] *or*
+6. Enrolled in hospice or palliative care[^hospice] within **1 year
+prior to and 60 days after** test result date
+
+7. Any of the following diagnosed within **1 year prior to and 60 days
+after** test result date
+
+    - pancreatic cancer[^pancreatic_cancer]
+    - leukemia (except acute lymphocytic)[^leukemia]
+    - liver cancer[^liver_cancer]
+    - biliary cancer[^biliary_cancer]
+    - esophageal cancer[^esophageal_cancer]
+    - gastric cancer[^gastric_cancer]
+    - brain cancer[^brain_cancer]
+    - uterine cancer[^uterine_cancer]
+    - ovarian cancer[^ovarian_cancer]
+    - peritoneal, omental, or mesenteric cancer[^peritoneal_cancer]
+    - myeloma[^myeloma]
     - lung, bronchus, or pleural cancer[^lung_pleura_cancer]
     - tracheal cancer[^tracheal_cancer]
 
-8. Diagnosis of upper GI bleeding
-(hematemesis)[^21] *or* ulcer of esophagus, stomach or duodenum with
-bleeding[^22] within **6 months prior to** the test result date
+8. Diagnosis of upper GI bleeding (hematemesis)[^21] *or* ulcer of
+esophagus, stomach or duodenum with bleeding[^22] within **6 months
+prior to** the test result date
 
-9. Colonoscopy[^23] **within 3 years prior
-to** test result date
+9. Colonoscopy[^23] **within 3 years prior to** test result date
 
 10. For iron deficiency anemia only, exclude patients with
 menorrhagia[^24] *or* hematuria[^25] *or* epistaxis[^26] *or* uterine,
@@ -86,11 +84,11 @@ result date
 
 Exclude patients with any of the following:
 
-13. Completed gastroenterology visit[^32]
-**within 60 days after** test result date
+13. Completed gastroenterology visit[^32] **within 60 days after**
+test result date
 
-14. Colonoscopy[^23] performed **within
-60 days after** test result date
+14. Colonoscopy[^23] performed **within 60 days after** test result
+date
 
 
 
