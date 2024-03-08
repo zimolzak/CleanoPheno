@@ -62,13 +62,13 @@ days after** imaging result date
 12. Then exclude patients with a completed multidisciplinary tumor
 board conference[^21] **within 30 days after** imaging result date
 
-13. Then exclude patients with a lung biopsy[^22] performed **within
+13. Then exclude patients with a lung biopsy ^a^ performed **within
 30 days after** imaging result date
 
-14. Then exclude patients with a bronchoscopy[^23] performed **within
+14. Then exclude patients with a bronchoscopy ^b^ performed **within
 30 days after** imaging result date
 
-15. Then exclude patients with a lung surgery[^24] performed **within
+15. Then exclude patients with a lung surgery ^c^ performed **within
 30 days after** imaging result date
 
 
@@ -86,16 +86,21 @@ board conference[^21] **within 30 days after** imaging result date
 [^18]: CPT: 78811, 78812, 78813, 78814, 78815, 78816, 78810, G0125,
 G0126, G0210, G0211, G0212, G0213; 
 
-[^19]: Based on VA clinic stop code 312, 104, or clinical note title
-entry for a completed pulmonary consult
+[^19]: VA clinic stop code 312, 104, or clinical note title
+for completed pulmonary consult
 
-[^20]: Based on VA clinic stop code 413, 64, or clinical note title
-entry for a completed thoracic surgery consult
+[^20]: VA clinic stop code 413, 64, or clinical note title
+for completed thoracic surgery consult
 
-[^21]: Based on VA clinic stop code 316, or clinical note title entry
-for a completed tumor board conference consult
+[^21]: VA clinic stop code 316, or clinical note title
+for completed tumor board conference consult
 
-[^22]: **CPT biopsy:** 3162x (where 'x' is any value between 5 and 9),
+
+
+
+# Long footnotes (letters *a, b,* and *c*)
+
+^a^ **CPT biopsy:** 3162x (where 'x' is any value between 5 and 9),
 31633, 31640, 31717, 32400, 32402, 32405, 32098, 32601, 32607, 32608,
 32609. **ICD-10 lung biopsy:** 0B9C3ZX, 0B9C4ZX, 0B9C7ZX, 0B9D3ZX,
 0B9D4ZX, 0B9D7ZX, 0B9F3ZX, 0B9F4ZX, 0B9F7ZX, 0B9G3ZX, 0B9G4ZX,
@@ -126,14 +131,16 @@ mediastinum biopsy:** 0W9C3ZX, 0W9C4ZX, 0WBC3ZX, 0WBC4ZX. **ICD-9:**
 33.24, 33.25, 33.26, 33.27, 33.28 (where 'x' is any value between 4
 and 8), 34.20, 34.23, 34.24, 34.25.
 
-[^23]: **CPT bronchoscopy:** 3162x (where 'x' is any value between 1
+
+^b^ **CPT bronchoscopy:** 3162x (where 'x' is any value between 1
 and 4), 3163x (where 'x' is any value between 0 and 8), 31641, 31643,
 31645, 31646, 31647, 31648, 31649, 31650, 31651, 31656, 31659, 31660,
 31661, 31725, 32035. **ICD-10:** 0BBN4ZX, 0BBP4ZX, 0BJ08ZZ, 0WJQ4ZZ,
 0WJC4ZZ, 0BJ08ZZ, 0BJK8ZZ, 0BJL8ZZ. **ICD-9:** 33.20, 33.21, 33.22,
 33.23.
 
-[^24]: **CPT surgery:** 32036, 32095, 32096, 32097, 32100, 32120,
+
+^c^ **CPT surgery:** 32036, 32095, 32096, 32097, 32100, 32120,
 32140, 32141, 32150, 32200, 32201, 32310, 32315, 32320, 32440, 32442,
 32445, 32450, 32480, 32482, 32484, 32485, 32486, 32488, 32490, 32491,
 32500, 32503, 32504, 32505, 32520, 32522, 32525, 32540, 32545, 32656,
