@@ -1,4 +1,7 @@
-# APPENDIX: Lung Red Flag Criteria
+% Missed Test Suggestive of Lung Cancer e-Trigger
+
+
+# Inclusion criteria
 
 1. Identify all patient records with abnormal chest X-Ray or CT result
 flagged by radiologist as "suspicious for malignancy"[^1]
@@ -6,23 +9,26 @@ flagged by radiologist as "suspicious for malignancy"[^1]
 
 
 
-## Clinical Exclusion Criteria
+# Exclusion Criteria
 
 2. Then exclude patients \< 18 years old on imaging result date
 
-3. Then exclude patients listed as deceased (based on status in mortality table) within **30 days
-after** imaging result date
+3. Then exclude patients listed as deceased (based on status in
+mortality table) within **30 days after** imaging result date
 
-4. Then exclude patients with active lung cancer diagnosis[^lung_pleura_cancer] within
-**1 year prior to** imaging result date
+4. Then exclude patients with active lung cancer
+diagnosis[^lung_pleura_cancer] within **1 year prior to** imaging
+result date
 
 5. Then exclude patients with tuberculosis diagnosis[^4] within **1
 year prior to** and **30 days after** imaging result date
 
-6. Then exclude patients enrolled in hospice or palliative care[^hospice]
-within **1 year prior to** and **30 days after** imaging result date
+6. Then exclude patients enrolled in hospice or palliative
+care[^hospice] within **1 year prior to** and **30 days after**
+imaging result date
 
-7. Then exclude patients with a diagnosis of pancreatic cancer[^pancreatic_cancer] *or*
+7. Then exclude patients with a diagnosis of pancreatic
+cancer[^pancreatic_cancer] *or*
 leukemia (except acute lymphocytic)[^leukemia] *or*
 liver cancer[^liver_cancer] *or*
 biliary cancer[^biliary_cancer] *or*
@@ -72,9 +78,10 @@ board conference[^21] **within 30 days after** imaging result date
 [^1]: CPT: X-Ray (71010, 71015, 71020, 71021, 71022, 71030, 71035,
 71101, 71111); CT (71275, 71250, 71270, 71260)
 
-[^4]: ICD-10 tuberculosis: A15.0, A15.5, A15.6, A15.7; ICD-9: 010.0x, 010.1x, 010.8x, 010.9x, 011.0x, 011.1x, 011.2x,
-011.3x, 011.4x, 011.5x, 011.6x, 011.7x, 011.8x, 011.9x (where 'x' is
-any value between 1 and 6)
+[^4]: ICD-10 tuberculosis: A15.0, A15.5, A15.6, A15.7; ICD-9: 010.0x,
+010.1x, 010.8x, 010.9x, 011.0x, 011.1x, 011.2x, 011.3x, 011.4x,
+011.5x, 011.6x, 011.7x, 011.8x, 011.9x (where 'x' is any value between
+1 and 6)
 
 
 
@@ -122,45 +129,46 @@ mediastinum biopsy:** 0W9C3ZX, 0W9C4ZX, 0WBC3ZX, 0WBC4ZX. **ICD-9:**
 33.24, 33.25, 33.26, 33.27, 33.28 (where 'x' is any value between 4
 and 8), 34.20, 34.23, 34.24, 34.25.
 
-[^23]: **CPT bronchoscopy:** 3162x (where 'x' is any value between 1 and
-4), 3163x (where 'x' is any value between 0 and 8), 31641, 31643,
+[^23]: **CPT bronchoscopy:** 3162x (where 'x' is any value between 1
+and 4), 3163x (where 'x' is any value between 0 and 8), 31641, 31643,
 31645, 31646, 31647, 31648, 31649, 31650, 31651, 31656, 31659, 31660,
 31661, 31725, 32035. **ICD-10:** 0BBN4ZX, 0BBP4ZX, 0BJ08ZZ, 0WJQ4ZZ,
-0WJC4ZZ, 0BJ08ZZ, 0BJK8ZZ, 0BJL8ZZ. **ICD-9:** 33.20, 33.21, 33.22, 33.23.
+0WJC4ZZ, 0BJ08ZZ, 0BJK8ZZ, 0BJL8ZZ. **ICD-9:** 33.20, 33.21, 33.22,
+33.23.
 
-[^24]: **CPT surgery:** 32036, 32095, 32096, 32097, 32100, 32120, 32140,
-32141, 32150, 32200, 32201, 32310, 32315, 32320, 32440, 32442, 32445,
-32450, 32480, 32482, 32484, 32485, 32486, 32488, 32490, 32491, 32500,
-32503, 32504, 32505, 32520, 32522, 32525, 32540, 32545, 32656, 32657,
-32663, 32666, 32667, 32668, 32669, 32670, 32671, 32672, 32700, 32705.
-**ICD-10 ablation:** 0B5K0ZZ, 0B5L0ZZ, 0B5M0ZZ, 0B5K3ZZ, 0B5L3ZZ,
-0B5M3ZZ, 0B5K4ZZ, 0B5L4ZZ, 0B5M4ZZ, 0B5K7ZZ, 0B5K8ZZ, 0B5L7ZZ,
-0B5L8ZZ, 0B5M7ZZ, 0B5M8ZZ. **ICD-10 resection:** 0B5K8ZZ, 0B5L8ZZ,
-0B5M8ZZ, 0BBK8ZZ, 0BBL8ZZ, 0BBM4ZZ, 0BBM8ZZ. **ICD-10 lobectomy:**
-0BTC4ZZ, 0BTD4ZZ, 0BTF4ZZ, 0BTG4ZZ, 0BTJ4ZZ, 0BTC0ZZ, 0BTD0ZZ,
-0BTF0ZZ, 0BTG0ZZ, 0BTJ0ZZ. **ICD-10 thoracotomy:** 02JA0ZZ, 0WJC0ZZ.
-**ICD-10 thoracoscopy:** 0BJ04ZZ, 0WJQ4ZZ. **ICD-10 excision:**
-0BBK4ZZ, 0BBL4ZZ, 0B5K0ZZ, 0B5K3ZZ, 0B5K7ZZ, 0B5L0ZZ, 0B5L3ZZ,
-0B5L7ZZ, 0B5M0ZZ, 0B5M3ZZ, 0B5M7ZZ, 0BBK0ZZ, 0BBK3ZZ, 0BBK7ZZ,
-0BBL0ZZ, 0BBL3ZZ, 0BBL7ZZ, 0BBM0ZZ, 0BBM3ZZ, 0BBM7ZZ, 0BBC4ZZ,
-0BBD4ZZ, 0BBF4ZZ, 0BBG4ZZ, 0BBH4ZZ, 0BBJ4ZZ, 0BBK4ZZ, 0BBL4ZZ,
-0BTH4ZZ, 0BBK0ZZ, 0BBK3ZZ, 0BBK7ZZ, 0BBL0ZZ, 0BBL3ZZ, 0BBL7ZZ.
-**ICD-10 pneumonectomy:** 0BTK4ZZ, 0BTL4ZZ, 0BTM4ZZ. 0BTK0ZZ, 0BTL0ZZ,
-0BTM0ZZ. **ICD-10 bronchus excision:** 0B534ZZ, 0B538ZZ, 0B544ZZ,
-0B548ZZ, 0B554ZZ, 0B558ZZ, 0B564ZZ, 0B568ZZ, 0B574ZZ, 0B578ZZ,
-0B584ZZ, 0B588ZZ, 0B594ZZ, 0B598ZZ, 0B5B4ZZ, 0B5B8ZZ, 0BB34ZZ,
-0BB38ZZ, 0BB44ZZ, 0BB48ZZ, 0BB54ZZ, 0BB58ZZ, 0BB64ZZ, 0BB68ZZ,
-0BB74ZZ, 0BB78ZZ, 0BB84ZZ, 0BB88ZZ, 0BB94ZZ, 0BB98ZZ, 0BBB4ZZ,
-0BBB8ZZ, 0B530ZZ, 0B533ZZ, 0B537ZZ, 0B540ZZ, 0B543ZZ, 0B547ZZ,
-0B550ZZ, 0B553ZZ, 0B557ZZ, 0B560ZZ, 0B563ZZ, 0B567ZZ, 0B570ZZ,
-0B573ZZ, 0B577ZZ, 0B580ZZ, 0B583ZZ, 0B587ZZ, 0B590ZZ, 0B593ZZ,
-0B597ZZ, 0B5B0ZZ, 0B5B3ZZ, 0B5B7ZZ, 0BB30ZZ, 0BB33ZZ, 0BB37ZZ,
-0BB40ZZ, 0BB43ZZ, 0BB47ZZ, 0BB50ZZ, 0BB53ZZ, 0BB57ZZ, 0BB60ZZ,
-0BB63ZZ, 0BB67ZZ, 0BB70ZZ, 0BB73ZZ, 0BB77ZZ, 0BB80ZZ, 0BB83ZZ,
-0BB87ZZ, 0BB90ZZ, 0BB93ZZ, 0BB97ZZ, 0BBB0ZZ, 0BBB3ZZ, 0BBB7ZZ,
-0BT30ZZ, 0BT34ZZ, 0BT40ZZ, 0BT44ZZ, 0BT50ZZ, 0BT54ZZ, 0BT60ZZ,
-0BT64ZZ, 0BT70ZZ, 0BT74ZZ, 0BT80ZZ, 0BT84ZZ, 0BT90ZZ, 0BT94ZZ, 0BTB0ZZ. **ICD-9:**
-32.0, 32.01, 32.09, 32.1, 32.20, 32.23, 32.34, 32.25, 32.26, 32.28,
-32.29, 32.3, 32.39, 32.4, 32.41, 32.49, 34.02, 34.21, 32.5, 32.59.
-
+[^24]: **CPT surgery:** 32036, 32095, 32096, 32097, 32100, 32120,
+32140, 32141, 32150, 32200, 32201, 32310, 32315, 32320, 32440, 32442,
+32445, 32450, 32480, 32482, 32484, 32485, 32486, 32488, 32490, 32491,
+32500, 32503, 32504, 32505, 32520, 32522, 32525, 32540, 32545, 32656,
+32657, 32663, 32666, 32667, 32668, 32669, 32670, 32671, 32672, 32700,
+32705. **ICD-10 ablation:** 0B5K0ZZ, 0B5L0ZZ, 0B5M0ZZ, 0B5K3ZZ,
+0B5L3ZZ, 0B5M3ZZ, 0B5K4ZZ, 0B5L4ZZ, 0B5M4ZZ, 0B5K7ZZ, 0B5K8ZZ,
+0B5L7ZZ, 0B5L8ZZ, 0B5M7ZZ, 0B5M8ZZ. **ICD-10 resection:** 0B5K8ZZ,
+0B5L8ZZ, 0B5M8ZZ, 0BBK8ZZ, 0BBL8ZZ, 0BBM4ZZ, 0BBM8ZZ. **ICD-10
+lobectomy:** 0BTC4ZZ, 0BTD4ZZ, 0BTF4ZZ, 0BTG4ZZ, 0BTJ4ZZ, 0BTC0ZZ,
+0BTD0ZZ, 0BTF0ZZ, 0BTG0ZZ, 0BTJ0ZZ. **ICD-10 thoracotomy:** 02JA0ZZ,
+0WJC0ZZ. **ICD-10 thoracoscopy:** 0BJ04ZZ, 0WJQ4ZZ. **ICD-10
+excision:** 0BBK4ZZ, 0BBL4ZZ, 0B5K0ZZ, 0B5K3ZZ, 0B5K7ZZ, 0B5L0ZZ,
+0B5L3ZZ, 0B5L7ZZ, 0B5M0ZZ, 0B5M3ZZ, 0B5M7ZZ, 0BBK0ZZ, 0BBK3ZZ,
+0BBK7ZZ, 0BBL0ZZ, 0BBL3ZZ, 0BBL7ZZ, 0BBM0ZZ, 0BBM3ZZ, 0BBM7ZZ,
+0BBC4ZZ, 0BBD4ZZ, 0BBF4ZZ, 0BBG4ZZ, 0BBH4ZZ, 0BBJ4ZZ, 0BBK4ZZ,
+0BBL4ZZ, 0BTH4ZZ, 0BBK0ZZ, 0BBK3ZZ, 0BBK7ZZ, 0BBL0ZZ, 0BBL3ZZ,
+0BBL7ZZ. **ICD-10 pneumonectomy:** 0BTK4ZZ, 0BTL4ZZ, 0BTM4ZZ. 0BTK0ZZ,
+0BTL0ZZ, 0BTM0ZZ. **ICD-10 bronchus excision:** 0B534ZZ, 0B538ZZ,
+0B544ZZ, 0B548ZZ, 0B554ZZ, 0B558ZZ, 0B564ZZ, 0B568ZZ, 0B574ZZ,
+0B578ZZ, 0B584ZZ, 0B588ZZ, 0B594ZZ, 0B598ZZ, 0B5B4ZZ, 0B5B8ZZ,
+0BB34ZZ, 0BB38ZZ, 0BB44ZZ, 0BB48ZZ, 0BB54ZZ, 0BB58ZZ, 0BB64ZZ,
+0BB68ZZ, 0BB74ZZ, 0BB78ZZ, 0BB84ZZ, 0BB88ZZ, 0BB94ZZ, 0BB98ZZ,
+0BBB4ZZ, 0BBB8ZZ, 0B530ZZ, 0B533ZZ, 0B537ZZ, 0B540ZZ, 0B543ZZ,
+0B547ZZ, 0B550ZZ, 0B553ZZ, 0B557ZZ, 0B560ZZ, 0B563ZZ, 0B567ZZ,
+0B570ZZ, 0B573ZZ, 0B577ZZ, 0B580ZZ, 0B583ZZ, 0B587ZZ, 0B590ZZ,
+0B593ZZ, 0B597ZZ, 0B5B0ZZ, 0B5B3ZZ, 0B5B7ZZ, 0BB30ZZ, 0BB33ZZ,
+0BB37ZZ, 0BB40ZZ, 0BB43ZZ, 0BB47ZZ, 0BB50ZZ, 0BB53ZZ, 0BB57ZZ,
+0BB60ZZ, 0BB63ZZ, 0BB67ZZ, 0BB70ZZ, 0BB73ZZ, 0BB77ZZ, 0BB80ZZ,
+0BB83ZZ, 0BB87ZZ, 0BB90ZZ, 0BB93ZZ, 0BB97ZZ, 0BBB0ZZ, 0BBB3ZZ,
+0BBB7ZZ, 0BT30ZZ, 0BT34ZZ, 0BT40ZZ, 0BT44ZZ, 0BT50ZZ, 0BT54ZZ,
+0BT60ZZ, 0BT64ZZ, 0BT70ZZ, 0BT74ZZ, 0BT80ZZ, 0BT84ZZ, 0BT90ZZ,
+0BT94ZZ, 0BTB0ZZ. **ICD-9:** 32.0, 32.01, 32.09, 32.1, 32.20, 32.23,
+32.34, 32.25, 32.26, 32.28, 32.29, 32.3, 32.39, 32.4, 32.41, 32.49,
+34.02, 34.21, 32.5, 32.59.
 
