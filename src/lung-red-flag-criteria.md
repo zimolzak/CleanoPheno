@@ -9,7 +9,7 @@ flagged by radiologist as "suspicious for malignancy"[^1]
 
 
 
-# Exclusion Criteria
+# Exclusion criteria
 
 2. Then exclude patients \< 18 years old on imaging result date
 
@@ -45,7 +45,7 @@ within **1 year prior to** and **30 days after** imaging result date
 
 
 
-## Expected Follow-up Criteria
+## Expected follow-up criteria
 
 8. Then exclude patients with a repeated chest x-ray or CT[^1]
 **within 30 days after** imaging result date
@@ -74,7 +74,6 @@ board conference[^21] **within 30 days after** imaging result date
 
 
 
-
 [^1]: CPT: X-Ray (71010, 71015, 71020, 71021, 71022, 71030, 71035,
 71101, 71111); CT (71275, 71250, 71270, 71260)
 
@@ -82,8 +81,6 @@ board conference[^21] **within 30 days after** imaging result date
 010.1x, 010.8x, 010.9x, 011.0x, 011.1x, 011.2x, 011.3x, 011.4x,
 011.5x, 011.6x, 011.7x, 011.8x, 011.9x (where 'x' is any value between
 1 and 6)
-
-
 
 
 [^18]: CPT: 78811, 78812, 78813, 78814, 78815, 78816, 78810, G0125,

@@ -76,7 +76,7 @@ result date
 
 
 
-# Expected Follow-up Criteria
+# Expected follow-up criteria
 
 13. Then exclude patients with a completed gastroenterology visit[^32]
 **within 60 days after** test result date
