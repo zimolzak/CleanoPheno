@@ -62,7 +62,7 @@ within **one year** prior to ER arrival:
 
 - More than **3** hospitalizations
 
-- Hospice
+- Hospice[^hospice]
 
 
 

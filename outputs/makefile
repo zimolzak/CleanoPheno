@@ -4,10 +4,14 @@ m = ../src/modules/
 
 files = er-boarder-escalation.docx er-revisit-critical.docx
 files += er-boarder-escalation.pdf er-revisit-critical.pdf
+files += er-boarder-escalation.md  # Same name but in /outputs dir.
 
 files += lung-cancer-missed-tests.md lung-cancer-missed-tests.docx lung-cancer-missed-tests.pdf
 files += colon-cancer-missed-tests.md colon-cancer-missed-tests.docx colon-cancer-missed-tests.pdf
 files += prostate-cancer-missed-tests.pdf prostate-cancer-missed-tests.md
+
+boarder_src = ../src/er-boarder-escalation.md
+boarder_src += $(m)hospice.md
 
 lung_src = ../src/lung-red-flag-criteria.md
 lung_src += $(m)pancreatic_cancer.md
@@ -60,10 +64,10 @@ all: $(files)
 
 # When .md file for pandoc is in src/ (no "cat" involved)
 
-er-%.docx: ../src/er-%.md
+er-revisit-critical.docx: ../src/er-revisit-critical.md
 	pandoc -o $@ $<
 
-er-%.pdf: ../src/er-%.md
+er-revisit-critical.pdf: ../src/er-revisit-critical.md
 	pandoc -o $@ $<
 
 # "cat" commands to make intermediate .md files
@@ -76,6 +80,9 @@ colon-cancer-missed-tests.md: $(colon_src)
 
 prostate-cancer-missed-tests.md: $(psa_src)
 	cat $(psa_src) > $@
+
+er-boarder-escalation.md: $(boarder_src)
+	cat $(boarder_src) > $@
 
 # When intermediate .md file is in outputs/ (the current dir)
 
