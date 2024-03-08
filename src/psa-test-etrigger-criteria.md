@@ -24,6 +24,8 @@ antigen (PSA) tests, defined as all of the following:
 
 # Exclusion criteria
 
+Exclude patients with any of the following:
+
 2.  Previous prostate cancer (any prior diagnosis)[^prostate_cancer]
 
 3.  Terminal illnesses or recent major diagnoses within **one year
@@ -42,14 +44,14 @@ antigen (PSA) tests, defined as all of the following:
     - pancreatic cancer[^pancreatic_cancer]
     - lung cancer[^lung_pleura_cancer]
 
-4. Patients who have **ever in the past or within 90 days after** the
+4. **Ever in the past or within 90 days after** the
     index date had an encounter for hospice/palliative
     care[^hospice]
 
-5.  Patients who were diagnosed with prostatitis **within 30 days
+5.  Prostatitis **within 30 days
     prior** to index date[^prostatitis]
 
-6.  Patients who had a prostate biopsy performed **in the 2 years
+6.  Prostate biopsy performed **in the 2 years
     prior** to index date[^prostate_biopsy]
 
 
