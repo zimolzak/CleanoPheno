@@ -11,41 +11,44 @@ flagged by radiologist as "suspicious for malignancy"[^1]
 
 # Exclusion criteria
 
-2. Then exclude patients \< 18 years old on imaging result date
+Exclude patients with any of the following.
 
-3. Then exclude patients listed as deceased (based on status in
+2. Less than 18 years old on imaging result date
+
+3. Listed as deceased (based on status in
 mortality table) within **30 days after** imaging result date
 
-4. Then exclude patients with active lung cancer
+4. Active lung cancer
 diagnosis[^lung_pleura_cancer] within **1 year prior to** imaging
 result date
 
-5. Then exclude patients with tuberculosis diagnosis[^4] within **1
+5. Tuberculosis diagnosis[^4] within **1
 year prior to** and **30 days after** imaging result date
 
-6. Then exclude patients enrolled in hospice or palliative
+6. Enrolled in hospice or palliative
 care[^hospice] within **1 year prior to** and **30 days after**
 imaging result date
 
-7. Then exclude patients with a diagnosis of pancreatic
-cancer[^pancreatic_cancer] *or*
-leukemia (except acute lymphocytic)[^leukemia] *or*
-liver cancer[^liver_cancer] *or*
-biliary cancer[^biliary_cancer] *or*
-esophageal cancer[^esophageal_cancer] *or*
-gastric cancer[^gastric_cancer] *or*
-brain cancer[^brain_cancer] *or*
-uterine cancer[^uterine_cancer] *or*
-ovarian cancer[^ovarian_cancer] *or*
-peritoneal, omental, or mesenteric cancer[^peritoneal_cancer] *or*
-myeloma[^myeloma] *or*
-tracheal cancer[^tracheal_cancer]
-within **1 year prior to** and **30 days after** imaging result date
+7. Has a diagnosis of any of the following within **1 year prior to**
+and **30 days after** imaging result date
+
+    - pancreatic cancer[^pancreatic_cancer]
+    - leukemia (except acute lymphocytic)[^leukemia]
+    - liver cancer[^liver_cancer]
+    - biliary cancer[^biliary_cancer]
+    - esophageal cancer[^esophageal_cancer]
+    - gastric cancer[^gastric_cancer]
+    - brain cancer[^brain_cancer]
+    - uterine cancer[^uterine_cancer]
+    - ovarian cancer[^ovarian_cancer]
+    - peritoneal, omental, or mesenteric cancer[^peritoneal_cancer]
+    - myeloma[^myeloma]
+    - tracheal cancer[^tracheal_cancer]
 
 
 
 
-## Expected follow-up criteria
+# Expected follow-up criteria
 
 8. Then exclude patients with a repeated chest x-ray or CT[^1]
 **within 30 days after** imaging result date
@@ -74,6 +77,11 @@ board conference[^21] **within 30 days after** imaging result date
 
 
 
+----
+
+
+
+
 [^1]: CPT: X-Ray (71010, 71015, 71020, 71021, 71022, 71030, 71035,
 71101, 71111); CT (71275, 71250, 71270, 71260)
 
@@ -81,7 +89,6 @@ board conference[^21] **within 30 days after** imaging result date
 010.1x, 010.8x, 010.9x, 011.0x, 011.1x, 011.2x, 011.3x, 011.4x,
 011.5x, 011.6x, 011.7x, 011.8x, 011.9x (where 'x' is any value between
 1 and 6)
-
 
 [^18]: CPT: 78811, 78812, 78813, 78814, 78815, 78816, 78810, G0125,
 G0126, G0210, G0211, G0212, G0213; 
@@ -94,9 +101,6 @@ for completed thoracic surgery consult
 
 [^21]: VA clinic stop code 316, or clinical note title
 for completed tumor board conference consult
-
-
-
 
 # Long footnotes (letters *a, b,* and *c*)
 
@@ -131,14 +135,12 @@ mediastinum biopsy:** 0W9C3ZX, 0W9C4ZX, 0WBC3ZX, 0WBC4ZX. **ICD-9:**
 33.24, 33.25, 33.26, 33.27, 33.28 (where 'x' is any value between 4
 and 8), 34.20, 34.23, 34.24, 34.25.
 
-
 ^b^ **CPT bronchoscopy:** 3162x (where 'x' is any value between 1
 and 4), 3163x (where 'x' is any value between 0 and 8), 31641, 31643,
 31645, 31646, 31647, 31648, 31649, 31650, 31651, 31656, 31659, 31660,
 31661, 31725, 32035. **ICD-10:** 0BBN4ZX, 0BBP4ZX, 0BJ08ZZ, 0WJQ4ZZ,
 0WJC4ZZ, 0BJ08ZZ, 0BJK8ZZ, 0BJL8ZZ. **ICD-9:** 33.20, 33.21, 33.22,
 33.23.
-
 
 ^c^ **CPT surgery:** 32036, 32095, 32096, 32097, 32100, 32120,
 32140, 32141, 32150, 32200, 32201, 32310, 32315, 32320, 32440, 32442,
