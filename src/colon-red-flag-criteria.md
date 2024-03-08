@@ -3,25 +3,28 @@
 
 # Inclusion criteria
 
-1. Identify all patient records with iron deficiency anemia, defined
-as:
+1. Identify all patient records with suspicious tests, defined as
+either of the following:
 
-(hemoglobin (Hb) less than or equal to 11 g/dL[^1] *and* mean
-corpuscular volume (MCV) less than or equal to 81 fL[^2] *and* no
-ferritin greater than or equal to 100 ng/mL within 12 months before or
-60 days after CBC (i.e., ferritin not checked or result \< 100)[^3])
+    a. Iron-deficiency anemia, defined as all of the following:
 
-OR
+        i. hemoglobin less than or equal to 11 g/dL[^1]
 
-(a positive fecal occult blood test (FOBT) or fecal immunochemical
-test (FIT)[^4] result)
+        ii. **and** mean corpuscular volume less than or equal to 81 fL[^2]
+
+        iii. **and** no ferritin greater than or equal to 100 ng/mL
+        within 12 months before or 60 days after CBC (*i.e.,* ferritin
+        not checked or result \< 100)[^3]
+
+    b. **or** a positive fecal occult blood test or fecal
+    immunochemical test[^4] result.
 
 
 
 
 # Exclusion criteria
 
-Exclude patients with any of the following.
+Exclude patients with any of the following:
 
 2. Less than 40 years old *or* \>75 years old on test
 result date
@@ -81,7 +84,7 @@ result date
 
 # Expected follow-up criteria
 
-Exclude patients with any of the following.
+Exclude patients with any of the following:
 
 13. Completed gastroenterology visit[^32]
 **within 60 days after** test result date
