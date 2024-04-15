@@ -1,6 +1,6 @@
 % Missed Test Suggestive of Prostate Cancer e-Trigger
 % Alexis Offner MPH, Andrew Zimolzak MD MMSc
-% March, 2024
+% April, 2024
 
 
 # Inclusion criteria
@@ -77,7 +77,17 @@ the index date:
 
 
 
-[^psa_test]: tk FIXME insert psa lab definition here (loinc?)
+[^psa_test]: Labs matching the following:
+```sql
+SELECT nvlc.LabProcedure, lct.*
+FROM [CDWWork].[Dim].[LabChemTest] as lct
+left join dim.NationalVALabCode as nvlc
+on lct.NationalVALabCodeSID = nvlc.NationalVALabCodeSID
+where
+  (LabProcedure like 'prostate specific%' or
+  LabProcedure like 'PSA%') and
+  LabProcedure not like '%free%'
+```
 
 [^prostate_cancer]: ICD-10 prostate: C61
 
@@ -87,7 +97,7 @@ mouth: C04, other sites within the oral cavity: C06.89, mouth: C06.9
 (unspecified), nasal cavity: C30.0, hypopharynx (unspecified): C13.9,
 nasal cavity: C30.0, larynx: C32.9
 
-[^neck_mets]: tk FIXME unknown ca icd code(s)
+[^neck_mets]: FIXME - list of ICD codes for neck metastases from unknown cancer is TBD.
 
 [^kidney_cancer]: ICD-10 kidney: C64.9
 
@@ -95,6 +105,5 @@ nasal cavity: C30.0, larynx: C32.9
 
 [^prostate_biopsy]: CPT prostate biopsy: 55700
 
-[^urology_visit]: CPT urology evaluation and management: 99202--99499
-tk FIXME need Stop codes
+[^urology_visit]: Urology clinic stop codes: 65, 414, 430, 451, 473
 

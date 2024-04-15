@@ -9,6 +9,7 @@ files += er-boarder-escalation.md  # Same name but in /outputs dir.
 files += lung-cancer-missed-tests.md lung-cancer-missed-tests.docx lung-cancer-missed-tests.pdf
 files += colon-cancer-missed-tests.md colon-cancer-missed-tests.docx colon-cancer-missed-tests.pdf
 files += prostate-cancer-missed-tests.pdf prostate-cancer-missed-tests.md
+files += prostate-cancer-missed-tests.docx
 
 boarder_src = ../src/er-boarder-escalation.md
 boarder_src += $(m)hospice.md
