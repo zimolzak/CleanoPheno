@@ -12,105 +12,55 @@ Baylor College of Medicine. Houston, TX, USA.
 
 # Inclusion criteria
 
-1. Identify all patient records with positive prostate specific
-antigen (PSA) tests, defined as all of the following:
+1. Identify all patients with cirrhosis[^cirrhosis] or any complication directly associated with cirrhosis (ascites[^ascites], HRS[^hrs], varices[^varices]) any time within the past **5 years** prior to e-trigger run.
 
-    a. Had PSA test[^psa_test] collected from January 1, 2009 to December 31, 2009. (The date of lab collection will be called the *index date.*)
-
-    b. **and** PSA test value of 4.1 to 15 ng/mL
-
-    c. **and** patient aged 40--70 years on index date
-
-    d. **and** no PSA greater than 4.1 ng/mL in the two years prior to
-    index date
-
-    e. **and** patient alive 90 days after the index date.
-
-
-
+2. For those patients, retrieve all serum creatinine tests within the past **1 year** prior to trigger run, where the
+requesting location was an outpatient clinic (primary care clinic,
+satellite clinic, or specialty clinic). Exclude if requesting location is telehealth or other rare requesting locations.[^clinic]
 
 # Exclusion criteria
 
-Exclude patients with any of the following:
+1. Patients with end-stage renal disease or hemodialysis[^esrd]
 
-2.  Previous prostate cancer (any prior diagnosis)[^prostate_cancer]
 
-3. Terminal illnesses or recent major diagnoses within **one year
-    before or 90 days after** the index date, defined as any of the
-    following:
 
-    - acute leukemia[^leukemia]
-    - hepatocellular cancer[^liver_cancer]
-    - biliary cancer[^biliary_cancer]
-    - esophageal cancer[^esophageal_cancer]
-    - gastric cancer[^gastric_cancer]
-    - head and neck cancer[^head_neck_cancer]
-    - metastases to neck nodes from unknown origin[^neck_mets]
-    - brain cancer[^brain_cancer]
-    - kidney cancer[^kidney_cancer]
-    - ovarian cancer[^ovarian_cancer]
-    - pancreatic cancer[^pancreatic_cancer]
-    - lung cancer[^lung_pleura_cancer]
+# Trigger flag criteria
 
-4. **Ever in the past or within 90 days after** the index date had an
-    encounter for hospice/palliative care[^hospice]
-
-5. Prostatitis **within 30 days prior** to index date[^prostatitis]
-
-6. Prostate biopsy performed **in the 2 years prior** to index
-    date[^prostate_biopsy]
+1. Of the included creatinine tests, flag any time the test value was a $\ge$ 1.5-fold
+increase in serum creatinine (or $\ge$ 50% increase in serum
+creatinine) from baseline. (Baseline defined as the lowest creatinine
+within the prior 1 year. If this is not possible, use the most recent
+serum creatinine within a previous 1 year as baseline.)
 
 
 
 
-# Expected follow-up criteria
-
-Exclude patients with any of the following **within 90 days after**
-the index date:
-
-7. Urology consult[^urology_visit] requested or completed
-
-8. Diagnosed with prostatitis[^prostatitis]
-
-9. Prostate biopsy[^prostate_biopsy] performed
-
-10. Repeat PSA[^psa_test] lab test result
 
 
 
 
 ----
 
+[^esrd]: ICD-10: Z99.2, Z49.9, Z49.02, T82.42, N18.6, I12.0
 
+[^clinic]: For VA, that is the following clinic types: COM CARE, PHONE
+APPOINTMENT, TELEPHONE APPOINTMENT, MAMMOGRAPHY, OPERATING ROOM, OTHER
+LCOATION, NON-CLINIC STOP, VIDEO CONNECT, SECMSG, INJECTION CLINICS,
+IMMUNIZATION CLINICS, EMPLOYEE HLTH, EYE/VISION, SWS, ECONSULT
 
+[^cirrhosis]: Cirrhosis ICD-10: K70.30, K70.31, K74.60, K74.69, K74.3, K74.4,
+K74.5,
+K72.90, K72.91, K72.10, K70.40, I85.00,
+I85.01, I85.10, I85.11, I86.4, K70.31, K70.11,
+R18.8, K65.2, G93.40, K70.41, K72.11, K72.91,
+K76.82, B15.0, B16.0, B16.2, B17.11, B10.0,
+B19.11, B19.21, K76.6, K76.7, K76.81, C22.0,
+C22.8, C22.9, K65.2, K76.82,
+K76.81
 
-[^psa_test]: Labs matching the following:
-```sql
-SELECT nvlc.LabProcedure, lct.*
-FROM [CDWWork].[Dim].[LabChemTest] as lct
-left join dim.NationalVALabCode as nvlc
-on lct.NationalVALabCodeSID = nvlc.NationalVALabCodeSID
-where
-  (LabProcedure like 'prostate specific%' or
-  LabProcedure like 'PSA%') and
-  LabProcedure not like '%free%'
-```
+[^varices]: Varices ICD-10: I85.01, I85.00, I85.10, I85.11
 
-[^prostate_cancer]: ICD-10 prostate: C61
+[^hrs]: HRS ICD-10: O90.41, K76.7, K91.83
 
-[^head_neck_cancer]: ICD-10 head and neck codes. Tongue: C02.9
-(unspecified), salivary gland: C08.9, gingivae: D00.03, floor of the
-mouth: C04, other sites within the oral cavity: C06.89, mouth: C06.9
-(unspecified), nasal cavity: C30.0, hypopharynx (unspecified): C13.9,
-nasal cavity: C30.0, larynx: C32.9
-
-[^neck_mets]: FIXME - list of ICD codes for neck metastases from unknown cancer is TBD.
-
-[^kidney_cancer]: ICD-10 kidney: C64.9
-
-[^prostatitis]: ICD-10 acute prostatitis: N41.0
-
-[^prostate_biopsy]: CPT prostate biopsy: 55700
-
-[^urology_visit]: Urology clinic stop codes: 65, 414, 430, 451, 473
+[^ascites]: Ascites ICD-10: K70.10, K71.50, K70.11, K71.51, K70.31, R18.8, K70.30, R18.0
 
