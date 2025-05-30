@@ -10,6 +10,8 @@ files += lung-cancer-missed-tests.md lung-cancer-missed-tests.docx lung-cancer-m
 files += colon-cancer-missed-tests.md colon-cancer-missed-tests.docx colon-cancer-missed-tests.pdf
 files += prostate-cancer-missed-tests.pdf prostate-cancer-missed-tests.md
 files += prostate-cancer-missed-tests.docx
+files += hepatorenal.pdf hepatorenal.docx
+
 
 boarder_src = ../src/er-boarder-escalation.md
 boarder_src += $(m)hospice.md
@@ -70,6 +72,13 @@ er-revisit-critical.docx: ../src/er-revisit-critical.md
 
 er-revisit-critical.pdf: ../src/er-revisit-critical.md
 	pandoc -o $@ $<
+
+hepatorenal.docx: ../src/hepatorenal.md
+	pandoc -o $@ $<
+
+hepatorenal.pdf: ../src/hepatorenal.md
+	pandoc -o $@ $<
+
 
 # "cat" commands to make intermediate .md files
 

@@ -10,15 +10,17 @@ Baylor College of Medicine. Houston, TX, USA.
 
 # Inclusion criteria
 
-1. Identify all patients with cirrhosis[^cirrhosis] or any complication directly associated with cirrhosis (ascites[^ascites], HRS[^hrs], varices[^varices]) any time within the past **5 years** prior to e-trigger run.
+1. Identify all patients with any encounter code for cirrhosis[^cirrhosis] or any complication directly associated with cirrhosis (ascites[^ascites], hepatic encephalopathy[^he], varices[^varices], hepatocellular carcinoma[^hcc]) any time within the past **5 years** prior to e-trigger run.[^valid]
 
 2. For those patients, retrieve all serum creatinine tests within the past **1 year** prior to trigger run, where the
 requesting location was an outpatient clinic (primary care clinic,
 satellite clinic, or specialty clinic). Exclude if requesting location is telehealth or other rare requesting locations.[^clinic]
 
+
 # Exclusion criteria
 
 1. Patients with end-stage renal disease or hemodialysis[^esrd]
+
 
 # Trigger flag criteria
 
@@ -27,6 +29,7 @@ increase in serum creatinine (or $\ge$ 50% increase in serum
 creatinine) from baseline. (Baseline defined as the lowest creatinine
 within the prior 1 year. If this is not possible, use the most recent
 serum creatinine within a previous 1 year as baseline.)
+
 
 ----
 
@@ -48,3 +51,4 @@ K74.5,
 
 [^hcc]: HCC ICD-10: C22.0, C22.8, C22.9
 
+[^valid]: Previously validated in: Mapakshi S, Kramer JR, Richardson P, El-Serag HB, Kanwal F. Positive Predictive Value of International Classification of Diseases, 10th Revision, Codes for Cirrhosis and Its Related Complications. *Clin Gastroenterol Hepatol.* 2018;16(10):1677--1678. PMID: 29410051
