@@ -77,9 +77,11 @@ hepatorenal.docx: ../src/hepatorenal.md
 hepatorenal.pdf: ../src/hepatorenal.md
 	pandoc -o $@ $<
 
-bladder.%: ../src/bladder.md
+bladder.docx: ../src/bladder.md
 	pandoc -o $@ $<
 
+bladder.pdf: ../src/bladder.md
+	pandoc -o $@ $<
 
 # "cat" commands to make intermediate .md files
 
