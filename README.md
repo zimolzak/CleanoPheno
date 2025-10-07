@@ -27,7 +27,7 @@ is manuscript citations.
 
 Murphy DR, Laxmisan A, Reis BA, *et al.* Electronic health
 record-based triggers to detect potential delays in cancer diagnosis.
-*BMJ Qual Saf.* 2014 Jan;23(1):8-16. doi: 10.1136/bmjqs-2013-001874.
+*BMJ Qual Saf.* 2014 Jan;23(1):8-16. doi: [10.1136/bmjqs-2013-001874](https://doi.org/10.1136/bmjqs-2013-001874).
 
 Murphy DR, Thomas EJ, Meyer AN, Singh H. Development and Validation of
 Electronic Health Record-based Triggers to Detect Delays in Follow-up
