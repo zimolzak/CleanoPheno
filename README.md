@@ -1,5 +1,7 @@
 # CleanoPheno
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13265178.svg)](https://doi.org/10.5281/zenodo.13265178)
+
 Per implementation guide `Safer Dx ENGAGE Draft 11.25.2024.docx`,
 there are 7. Per the newer guide and specifically `Appendix C
 9.22.2025.docx`, there are now 8. Note on terminolgy: Appendix C is an
