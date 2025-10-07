@@ -46,7 +46,7 @@ Any bold text below can be adjusted according to the needs of the user.
 
     e.  Hepatocellular cancer^9^
 
-    f.  Gallbladder and Biliary cancer^10^
+    f.  Gallbladder and biliary cancer^10^
 
     g.  Esophageal cancer^11^
 
@@ -58,13 +58,13 @@ Any bold text below can be adjusted according to the needs of the user.
     sinuses;^20^ larynx;^21^ or with metastases to neck nodes from
     unknown origin^22^
 
-    j.  Patients who had brain cancer^23^
+    j.  Brain cancer^23^
 
     k.  Uterine cancer^24^
 
     l.  Ovarian cancer^25^
 
-    m.  Peritoneal cancer,^26^ Omental,^27^ and Mesenteric Cancer^28^
+    m.  Peritoneal,^26^ omental,^27^ and mesenteric cancer^28^
 
     n.  Myeloma^29^
 
@@ -195,7 +195,7 @@ C71.7, C71.8, C71.9, C79.31, C79.32, C79.49; ICD-9: 191.x, 198.3, 198.4
 
 ^25^ ICD-10 ovary: C56.9, C56.1, C56.2; ICD-9: 183.0
 
-^26,\ 287\ ,28^ ICD-10 peritoneal, omental, and mesenteric:
+^26,\ 27\ ,28^ ICD-10 peritoneal, omental, and mesenteric:
 C48, C26, C45; ICD-9: 158
 
 ^29^ ICD-10 myeloma: C90.0, C90.01. C90.02, C90.20, C90.21, C90.22,
@@ -212,7 +212,7 @@ hospice/palliative care consult or consult with primary stop code 351 or
 ^33^ Other sources of bladder/renal bleeding: ureteral stones,
 CPT 5061; ICD-10: N20.2
 
-^34^ Evidence of active UTI, ICD-9: 599.0; UTI related antibiotics:
+^34^ Evidence of active UTI, ICD-9: 599.0; UTI-related antibiotics:
 CPT 87184, 87185, 87186, 87188; Positive culture result: Leukocyte
 urinalysis CPT 81000; nitrites urinalysis CPT 8100
 
