@@ -1,36 +1,108 @@
 .PHONY: all clean
 
+m = ../src/modules/
+
 files = er-boarder-escalation.docx er-revisit-critical.docx
 files += er-boarder-escalation.pdf er-revisit-critical.pdf
-files += discovery-manual.docx discovery-manual.pdf discovery-manual.md
-files += lung-icd10.md
+files += er-boarder-escalation.md  # Same name but in /outputs dir.
 
-discovery_src = ../src/discovery.md lung-icd10.md ../src/colon-icd10.md
-lung_src = ../src/lung-red-flag-criteria.md ../src/pancreatic_cancer.md
+files += lung-cancer-missed-tests.md lung-cancer-missed-tests.docx lung-cancer-missed-tests.pdf
+files += colon-cancer-missed-tests.md colon-cancer-missed-tests.docx colon-cancer-missed-tests.pdf
+files += prostate-cancer-missed-tests.pdf prostate-cancer-missed-tests.md
+files += prostate-cancer-missed-tests.docx
+files += hepatorenal.pdf hepatorenal.docx
+
+
+boarder_src = ../src/er-boarder-escalation.md
+boarder_src += $(m)hospice.md
+
+lung_src = ../src/lung-red-flag-criteria.md
+lung_src += $(m)pancreatic_cancer.md
+lung_src += $(m)biliary_cancer.md
+lung_src += $(m)brain_cancer.md
+lung_src += $(m)esophageal_cancer.md
+lung_src += $(m)gastric_cancer.md
+lung_src += $(m)leukemia.md
+lung_src += $(m)liver_cancer.md
+lung_src += $(m)myeloma.md
+lung_src += $(m)ovarian_cancer.md
+lung_src += $(m)peritoneal_cancer.md
+lung_src += $(m)tracheal_cancer.md
+lung_src += $(m)uterine_cancer.md
+lung_src += $(m)lung_pleura_cancer.md
+lung_src += $(m)hospice.md
+
+colon_src = ../src/colon-red-flag-criteria.md
+colon_src += $(m)pancreatic_cancer.md
+colon_src += $(m)leukemia.md
+colon_src += $(m)liver_cancer.md
+colon_src += $(m)esophageal_cancer.md
+colon_src += $(m)gastric_cancer.md
+colon_src += $(m)brain_cancer.md
+colon_src += $(m)uterine_cancer.md
+colon_src += $(m)ovarian_cancer.md
+colon_src += $(m)peritoneal_cancer.md
+colon_src += $(m)myeloma.md
+colon_src += $(m)tracheal_cancer.md
+colon_src += $(m)biliary_cancer.md
+colon_src += $(m)lung_pleura_cancer.md
+colon_src += $(m)hospice.md
+
+psa_src = ../src/psa-test-etrigger-criteria.md
+psa_src += $(m)hospice.md
+psa_src += $(m)leukemia.md
+psa_src += $(m)liver_cancer.md
+psa_src += $(m)biliary_cancer.md
+psa_src += $(m)esophageal_cancer.md
+psa_src += $(m)gastric_cancer.md
+psa_src += $(m)brain_cancer.md
+psa_src += $(m)ovarian_cancer.md
+psa_src += $(m)pancreatic_cancer.md
+psa_src += $(m)lung_pleura_cancer.md
+
+
+
 
 all: $(files)
 
-%.docx: ../src/%.md
+# When .md file for pandoc is in src/ (no "cat" involved)
+
+er-revisit-critical.docx: ../src/er-revisit-critical.md
 	pandoc -o $@ $<
 
-%.pdf: ../src/%.md
+er-revisit-critical.pdf: ../src/er-revisit-critical.md
 	pandoc -o $@ $<
 
-## specific rules
+hepatorenal.docx: ../src/hepatorenal.md
+	pandoc -o $@ $<
 
-lung-icd10.md: $(lung_src)
+hepatorenal.pdf: ../src/hepatorenal.md
+	pandoc -o $@ $<
+
+
+# "cat" commands to make intermediate .md files
+
+lung-cancer-missed-tests.md: $(lung_src)
 	cat $(lung_src) > $@
 
-discovery-manual.md: $(discovery_src)
-	cat $(discovery_src) > $@
+colon-cancer-missed-tests.md: $(colon_src)
+	cat $(colon_src) > $@
 
-discovery-manual.docx: discovery-manual.md
+prostate-cancer-missed-tests.md: $(psa_src)
+	cat $(psa_src) > $@
+
+er-boarder-escalation.md: $(boarder_src)
+	cat $(boarder_src) > $@
+
+# When intermediate .md file is in outputs/ (the current dir)
+
+%.pdf: %.md
 	pandoc -o $@ $<
 
-discovery-manual.pdf: discovery-manual.md
+%.docx: %.md
 	pandoc -o $@ $<
 
-## clean
+# clean
 
 clean:
 	rm -f $(files)

@@ -1,4 +1,4 @@
-% ER Boarder Escalation Trigger
+% ER Boarder Escalation e-Trigger
 % 2024-02-08
 % Andrew Zimolzak, MD, MMSc; Sarah Bezek, MD
 
@@ -7,7 +7,7 @@ Adapted from Bhise *et al. BMJ Qual Saf* 2018;**27**:241--246.
 
 
 
-# Inclusion Criteria
+# Inclusion criteria
 
 Anything in bold text below is a "fill in the blank" that can be
 adjusted according to the needs of the user.
@@ -47,7 +47,7 @@ setting.)
 
 
 
-# Exclusion Criteria
+# Exclusion criteria
 
 Record excluded if *any* of the following criteria are identified on
 date of ER arrival:
@@ -62,7 +62,7 @@ within **one year** prior to ER arrival:
 
 - More than **3** hospitalizations
 
-- Hospice
+- Hospice[^hospice]
 
 
 
