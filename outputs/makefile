@@ -8,7 +8,8 @@ files += er-revisit-critical.docx er-revisit-critical.pdf
 files +=     lung-cancer-missed-tests.md     lung-cancer-missed-tests.docx     lung-cancer-missed-tests.pdf
 files +=    colon-cancer-missed-tests.md    colon-cancer-missed-tests.docx    colon-cancer-missed-tests.pdf
 files += prostate-cancer-missed-tests.md prostate-cancer-missed-tests.docx prostate-cancer-missed-tests.pdf
-files += hepatorenal.pdf hepatorenal.docx
+files += hepatorenal.docx hepatorenal.pdf
+files += bladder.docx bladder.pdf
 
 
 boarder_src = ../src/er-boarder-escalation.md
@@ -75,6 +76,9 @@ hepatorenal.docx: ../src/hepatorenal.md
 	pandoc -o $@ $<
 
 hepatorenal.pdf: ../src/hepatorenal.md
+	pandoc -o $@ $<
+
+bladder.%: ../src/bladder.md
 	pandoc -o $@ $<
 
 
