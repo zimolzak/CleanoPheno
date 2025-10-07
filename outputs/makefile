@@ -2,14 +2,12 @@
 
 m = ../src/modules/
 
-files = er-boarder-escalation.docx er-revisit-critical.docx
-files += er-boarder-escalation.pdf er-revisit-critical.pdf
-files += er-boarder-escalation.md  # Same name but in /outputs dir.
+files = er-boarder-escalation.md er-boarder-escalation.docx er-boarder-escalation.pdf
+files += er-revisit-critical.docx er-revisit-critical.pdf
 
-files += lung-cancer-missed-tests.md lung-cancer-missed-tests.docx lung-cancer-missed-tests.pdf
-files += colon-cancer-missed-tests.md colon-cancer-missed-tests.docx colon-cancer-missed-tests.pdf
-files += prostate-cancer-missed-tests.pdf prostate-cancer-missed-tests.md
-files += prostate-cancer-missed-tests.docx
+files +=     lung-cancer-missed-tests.md     lung-cancer-missed-tests.docx     lung-cancer-missed-tests.pdf
+files +=    colon-cancer-missed-tests.md    colon-cancer-missed-tests.docx    colon-cancer-missed-tests.pdf
+files += prostate-cancer-missed-tests.md prostate-cancer-missed-tests.docx prostate-cancer-missed-tests.pdf
 files += hepatorenal.pdf hepatorenal.docx
 
 
