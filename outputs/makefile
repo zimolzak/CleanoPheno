@@ -72,6 +72,9 @@ bladder_src += $(m)esophageal_cancer.md
 bladder_src += $(m)gastric_cancer.md
 bladder_src += $(m)brain_cancer.md
 bladder_src += $(m)uterine_cancer.md
+bladder_src += $(m)ovarian_cancer.md
+bladder_src += $(m)peritoneal_cancer.md
+bladder_src += $(m)myeloma.md
 
 
 all: $(files)

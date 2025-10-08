@@ -54,7 +54,7 @@ clue
     - uterine cancer[^uterine_cancer]
     - ovarian cancer[^ovarian_cancer]
     - peritoneal, omental, and mesenteric cancer[^peritoneal_cancer]
-    - myeloma[^29]
+    - myeloma[^myeloma]
     - tracheal cancer[^30]
     - kidney cancer[^kidney_cancer]
 
@@ -116,10 +116,12 @@ search by test name
 
 
 
-[^29]: ICD-10 myeloma: C90.0, C90.01. C90.02, C90.20, C90.21, C90.22,
-C90.30, C90.31, C90.32
+
 
 [^30]: ICD-10 tracheal: C33; ICD-9: 162
+
+
+
 
 [^32]: ICD-10: Z51.5, or consult code entry for completed
 hospice/palliative care consult, or consult with Veterans Affairs
