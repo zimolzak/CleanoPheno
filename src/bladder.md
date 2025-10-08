@@ -42,9 +42,8 @@ clue
 5.  Terminal illnesses or recent major diagnoses within **one year
     before or 60 days after** the diagnostic clue
 
-    - lung cancer[^5]
+    - lung cancer[^lung_pleura_cancer]
     - pancreatic cancer[^6]
-    - pleural cancer and mesothelioma[^7]
     - leukemia (acute only)[^8]
     - hepatocellular cancer[^9]
     - gallbladder and biliary cancer[^10]
@@ -114,15 +113,9 @@ search by test name
 
 [^4]: ICD-10 cystectomy: N52.32
 
-[^5]: ICD-10 lung: C34.0 to C34.3, C34.8, C34.9, C78.00, C78.01, C78.02;
-ICD-9: 162.0, 162.2x, 162.3x, 162.4x, 162.5x, 162.8x, 162.9x, 163.xx,
-197.0, 197.2, 197.3 (where 'x' is any value)
-
 [^6]: ICD-10 pancreas: C25.0, C25.1, C25.2, C25.3, C25.4, C25.7, C25.8,
 C25.9; ICD-9: 157.xx
 
-[^7]: ICD-10 pleural cancer and mesothelioma; C45.0, C45.1, C45.2,
-C45.7, C45.9; ICD-9 163.xx, 197.2
 
 [^8]: ICD-10 leukemia: C92.00, C92.4, C92.5, C92.60, C92.01, C92.41,
 C92.51, C92.02, C92.42, C92.52, C93.00, C93.01, C93.02, C94.00,

@@ -63,7 +63,7 @@ psa_src += $(m)kidney_cancer.md
 bladder_src = ../src/bladder.md
 bladder_src += $(m)head_neck_cancer.md
 bladder_src += $(m)kidney_cancer.md
-
+bladder_src += $(m)lung_pleura_cancer.md
 
 all: $(files)
 
