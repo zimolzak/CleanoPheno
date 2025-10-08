@@ -63,7 +63,7 @@ clue
     diagnostic clue
 
 7.  Evidence of other sources of bladder/renal
-    bleeding (ureteral stones; renal stones)[^33] **within 90 days
+    bleeding (ureteral stones; renal stones)[^stone] **within 90 days
     prior** to diagnostic clue
 
 8.  Evidence of active UTI **within 2 days prior or 7 days
@@ -79,29 +79,35 @@ clue
 9.  Recent cystoscopy[^cysto] **within 1 year
     prior** to diagnostic clue
 
-10.  Recent procedure potentially causing hematuria
-    (renal biopsy, prostate biopsy, renal stone surgery, *or* bladder
-    surgery)[^36] **in the 3 months prior** to diagnostic clue.
 
 
 
+
+
+
+
+10. Recent procedure potentially causing hematuria (renal
+    biopsy[^rbx], prostate biopsy[^pbx], renal stone surgery[^rss],
+    *or* bladder surgery^a^) **in the 3 months prior** to diagnostic
+    clue.
 
 # Expected Follow-up Criteria
 
 A record will be excluded if *any* of the following criteria are
 identified **within 60 days after** the diagnostic clue.
 
-1.  Urology[^37] consult (visit) completed
+1. Urology[^uro] consult (visit) completed (according to local
+specialty visit/encounter codes)
 
 2.  Cystoscopy[^cysto] performed
 
-3.  Abdominal/pelvic imaging[^39] performed
+3.  Abdominal/pelvic imaging[^img] performed
 
-4.  Renal biopsy[^40]
+4.  Renal biopsy[^rbx]
 
-5.  Bladder biopsy[^41]
+5.  Bladder biopsy[^bbx]
 
-6.  Bladder surgery[^42]
+6.  Bladder surgery^a^
 
 
 
@@ -116,28 +122,43 @@ search by test name
 0TTB8ZZ, 0TTD0ZZ, 0TTD4ZZ,
 0TTD7ZZ, 0TTD8ZZ
 
-[^33]: ICD-10 bladder/renal stones: N21.0,
+[^stone]: ICD-10 bladder/renal stones: N21.0,
 N21.1,
 N21.8,
 N21.9,
 N20.0, N20.2
+
+[^cysto]: Cystoscopy performed CPT: 52007, 52204, 52224, 52240, 52250
+
+
+
+
+[^rbx]: Renal biopsy: CPT 50200. FIXME
+
+[^pbx]: prostate bx codes FIXME
+
+[^rss]: renal stone surg FIXME
 
 [^36]: Recent procedure causing hematuria CPT: 81000; ICD-9 599.7; Renal
 biopsy CPT 50200, 50205, 50576; Prostate biopsy CPT: 55700; Renal
 stone surgery CPT: 50590; Stent replacement CPT: 44402, 45327, 45337,
 45347, 45389; Bladder surgery CPT: 50961
 
-[^37]: Urology visit completed (according to local specialty
-visit/encounter codes)
+[^img]: Abdominal/pelvic CT ICD-10: R93, R93.5; Abdominal/pelvic MRI
+ICD-10: R93; Renal Ultrasound CPT: 76770, 76775. FIXME
 
-[^cysto]: Cystoscopy performed CPT: 52007, 52204, 52224, 52240, 52250
+[^bbx]: Bladder biopsy: CPT 52204, 52250
 
-[^39]: Abdominal/pelvic CT ICD-10: R93, R93.5; Abdominal/pelvic MRI
-ICD-10: R93; Renal Ultrasound CPT: 76770, 76775.
 
-[^40]: Renal biopsy: CPT 50200
 
-[^41]: Bladder biopsy: CPT 52204, 52250
 
-[^42]: Bladder surgery: CPT 00910
+----
+
+
+
+
+# Long footnote (letter *a* for bladder surgery)
+
+^a^ **CPT Bladder surgery:** 00910
+ **ICD-10-PCS bladder surgery:** tk
 
