@@ -55,11 +55,11 @@ clue
     - ovarian cancer[^ovarian_cancer]
     - peritoneal, omental, and mesenteric cancer[^peritoneal_cancer]
     - myeloma[^myeloma]
-    - tracheal cancer[^30]
+    - tracheal cancer[^tracheal_cancer]
     - kidney cancer[^kidney_cancer]
 
 6.  Encounter for hospice/palliative
-    care[^32] **in the 1 year prior or within 60 days after** the
+    care[^hospice] **in the 1 year prior or within 60 days after** the
     diagnostic clue
 
 7.  Evidence of other sources of bladder/renal
@@ -112,20 +112,6 @@ search by test name
 [^2]: ICD-10 bladder cancer: C67, C67.1
 
 [^4]: ICD-10 cystectomy: N52.32
-
-
-
-
-
-
-[^30]: ICD-10 tracheal: C33; ICD-9: 162
-
-
-
-
-[^32]: ICD-10: Z51.5, or consult code entry for completed
-hospice/palliative care consult, or consult with Veterans Affairs
-primary stop code 351 or 353. ICD-9: V66.7
 
 [^33]: Other sources of bladder/renal bleeding: ureteral stones,
 CPT 5061; ICD-10: N20.2

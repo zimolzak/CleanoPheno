@@ -75,6 +75,8 @@ bladder_src += $(m)uterine_cancer.md
 bladder_src += $(m)ovarian_cancer.md
 bladder_src += $(m)peritoneal_cancer.md
 bladder_src += $(m)myeloma.md
+bladder_src += $(m)tracheal_cancer.md
+bladder_src += $(m)hospice.md
 
 
 all: $(files)
