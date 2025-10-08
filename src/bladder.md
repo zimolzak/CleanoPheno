@@ -88,8 +88,8 @@ clue
 
 10. Recent procedure potentially causing hematuria (renal
     biopsy[^rbx], prostate biopsy[^pbx], renal stone surgery[^rss],
-    *or* bladder surgery^a^) **in the 3 months prior** to diagnostic
-    clue.
+    stent placement[^stent], *or* bladder surgery^a^) **in the 3
+    months prior** to diagnostic clue.
 
 # Expected Follow-up Criteria
 
@@ -133,19 +133,17 @@ N20.0, N20.2
 
 
 
-[^rbx]: Renal biopsy: CPT 50200. FIXME
+[^rbx]: Renal biopsy: CPT 50200, 50205, 50576. FIXME 
 
-[^pbx]: prostate bx codes FIXME
+[^pbx]: prostate bx codes FIXME Prostate biopsy CPT: 55700
 
-[^rss]: renal stone surg FIXME
+[^rss]: renal stone surg FIXME Renal
+stone surgery CPT: 50590
 
-[^36]: Recent procedure causing hematuria CPT: 81000; ICD-9 599.7; Renal
-biopsy CPT 50200, 50205, 50576; Prostate biopsy CPT: 55700; Renal
-stone surgery CPT: 50590; Stent replacement CPT: 44402, 45327, 45337,
-45347, 45389; Bladder surgery CPT: 50961
+[^stent]: Stent CPT: 44402, 45327, 45337,
+45347, 45389
 
-[^img]: Abdominal/pelvic CT ICD-10: R93, R93.5; Abdominal/pelvic MRI
-ICD-10: R93; Renal Ultrasound CPT: 76770, 76775. FIXME
+[^img]: Renal Ultrasound CPT: 76770, 76775. FIXME
 
 [^bbx]: Bladder biopsy: CPT 52204, 52250
 
@@ -159,6 +157,6 @@ ICD-10: R93; Renal Ultrasound CPT: 76770, 76775. FIXME
 
 # Long footnote (letter *a* for bladder surgery)
 
-^a^ **CPT Bladder surgery:** 00910
+^a^ **CPT Bladder surgery:** 00910, 50961
  **ICD-10-PCS bladder surgery:** tk
 
