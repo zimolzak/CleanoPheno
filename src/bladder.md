@@ -52,8 +52,8 @@ clue
     - head and neck cancer[^head_neck_cancer]
     - brain cancer[^brain_cancer]
     - uterine cancer[^uterine_cancer]
-    - ovarian cancer[^25]
-    - peritoneal, omental, and mesenteric cancer[^28]
+    - ovarian cancer[^ovarian_cancer]
+    - peritoneal, omental, and mesenteric cancer[^peritoneal_cancer]
     - myeloma[^29]
     - tracheal cancer[^30]
     - kidney cancer[^kidney_cancer]
@@ -115,10 +115,6 @@ search by test name
 
 
 
-[^25]: ICD-10 ovary: C56.9, C56.1, C56.2; ICD-9: 183.0
-
-[^28]: ICD-10 peritoneal, omental, and mesenteric:
-C48, C26, C45; ICD-9: 158
 
 [^29]: ICD-10 myeloma: C90.0, C90.01. C90.02, C90.20, C90.21, C90.22,
 C90.30, C90.31, C90.32
