@@ -66,7 +66,7 @@ clue
     bleeding (ureteral stones; renal stones)[^33] **within 90 days
     prior** to diagnostic clue
 
-8.  Evidence of active UTI[^34] **within 2 days prior or 7 days
+8.  Evidence of active UTI **within 2 days prior or 7 days
     after** diagnostic clue
 
     a. UTI-related antibiotics order
@@ -121,10 +121,6 @@ N21.1,
 N21.8,
 N21.9,
 N20.0, N20.2
-
-[^34]: Evidence of active UTI, ICD-9: 599.0; UTI-related antibiotics:
-CPT 87184, 87185, 87186, 87188; Positive culture result: Leukocyte
-urinalysis CPT 81000; nitrites urinalysis CPT 8100
 
 [^36]: Recent procedure causing hematuria CPT: 81000; ICD-9 599.7; Renal
 biopsy CPT 50200, 50205, 50576; Prostate biopsy CPT: 55700; Renal
