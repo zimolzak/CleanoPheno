@@ -71,6 +71,8 @@ bladder_src += $(m)biliary_cancer.md
 bladder_src += $(m)esophageal_cancer.md
 bladder_src += $(m)gastric_cancer.md
 bladder_src += $(m)brain_cancer.md
+bladder_src += $(m)uterine_cancer.md
+
 
 all: $(files)
 

@@ -51,7 +51,7 @@ clue
     - gastric cancer[^gastric_cancer]
     - head and neck cancer[^head_neck_cancer]
     - brain cancer[^brain_cancer]
-    - uterine cancer[^24]
+    - uterine cancer[^uterine_cancer]
     - ovarian cancer[^25]
     - peritoneal, omental, and mesenteric cancer[^28]
     - myeloma[^29]
@@ -114,8 +114,6 @@ search by test name
 [^4]: ICD-10 cystectomy: N52.32
 
 
-
-[^24]: ICD10 uterine: C57, C57.1, C57.2, C57.3 C57.4, DO6, DO7
 
 [^25]: ICD-10 ovary: C56.9, C56.1, C56.2; ICD-9: 183.0
 
