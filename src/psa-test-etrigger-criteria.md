@@ -71,12 +71,7 @@ the index date:
 
 
 
-----
-
-
-
-
-[^psa_test]: Labs matching the following:
+[^psa_test]: Labs matching the following Veterans Affairs SQL (or equivalent lab name matching):
 ```sql
 SELECT nvlc.LabProcedure, lct.*
 FROM [CDWWork].[Dim].[LabChemTest] as lct
