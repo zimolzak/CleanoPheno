@@ -76,7 +76,7 @@ clue
     c. positive bacteria, leukocytes, leukocyte esterase, *or* nitrite
     (with any value except 'negative' or 'trace' result)
 
-9.  Recent cystoscopy[^35] **within 1 year
+9.  Recent cystoscopy[^cysto] **within 1 year
     prior** to diagnostic clue
 
 10.  Recent procedure potentially causing hematuria
@@ -93,7 +93,7 @@ identified **within 60 days after** the diagnostic clue.
 
 1.  Urology[^37] consult (visit) completed
 
-2.  Cystoscopy[^38] performed
+2.  Cystoscopy[^cysto] performed
 
 3.  Abdominal/pelvic imaging[^39] performed
 
@@ -109,19 +109,22 @@ identified **within 60 days after** the diagnostic clue.
 [^1]: Urinalysis CPT 81000; LOINC: 13945-1; and may be advisable to
 search by test name
 
-[^2]: ICD-10 bladder cancer: C67, C67.1
+[^2]: ICD-10 bladder cancer: C67.x, D49.4, D41.4; ICD-9: 188.x, 239.4, 236.7
 
-[^4]: ICD-10 cystectomy: N52.32
+[^4]: ICD-10-PCS cystectomy: 0TBB0ZZ, 0TBB3ZZ, 0TBB4ZZ,
+0TTB0ZZ, 0TTB4ZZ, 0TTB7ZZ,
+0TTB8ZZ, 0TTD0ZZ, 0TTD4ZZ,
+0TTD7ZZ, 0TTD8ZZ
 
-[^33]: Other sources of bladder/renal bleeding: ureteral stones,
-CPT 5061; ICD-10: N20.2
+[^33]: ICD-10 bladder/renal stones: N21.0,
+N21.1,
+N21.8,
+N21.9,
+N20.0, N20.2
 
 [^34]: Evidence of active UTI, ICD-9: 599.0; UTI-related antibiotics:
 CPT 87184, 87185, 87186, 87188; Positive culture result: Leukocyte
 urinalysis CPT 81000; nitrites urinalysis CPT 8100
-
-[^35]: Evidence of recent cystoscopy CPT: 52007, 52204, 52224, 52240,
-52250
 
 [^36]: Recent procedure causing hematuria CPT: 81000; ICD-9 599.7; Renal
 biopsy CPT 50200, 50205, 50576; Prostate biopsy CPT: 55700; Renal
@@ -131,7 +134,7 @@ stone surgery CPT: 50590; Stent replacement CPT: 44402, 45327, 45337,
 [^37]: Urology visit completed (according to local specialty
 visit/encounter codes)
 
-[^38]: Cystoscopy performed CPT: 52007, 52204, 52224, 52240, 52250
+[^cysto]: Cystoscopy performed CPT: 52007, 52204, 52224, 52240, 52250
 
 [^39]: Abdominal/pelvic CT ICD-10: R93, R93.5; Abdominal/pelvic MRI
 ICD-10: R93; Renal Ultrasound CPT: 76770, 76775.

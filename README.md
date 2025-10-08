@@ -16,7 +16,7 @@ is manuscript citations.
 - [x] Colon cancer
 - [x] Lung cancer
 - [ ] Liver cancer: `Hepatocellular Carcinoma Trigger Criteria.doc`
-- [x] Bladder cancer: `bladder.md` (previously `bladder-cancer-without-highlight.docx`, 2024)
+- [x] Bladder cancer
 - [ ] Breast cancer: `Breast Cancer Trigger Criteria.docx`
 - [x] Prostate cancer
 - [ ] Thyroid dysfunction
