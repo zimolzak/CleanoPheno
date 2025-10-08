@@ -57,7 +57,7 @@ clue
     - peritoneal,^26^ omental,^27^ and mesenteric cancer^28^
     - myeloma^29^
     - tracheal cancer^30^
-    - renal cancer^31^
+    - kidney cancer[^kidney_cancer]
 
 6.  Encounter for hospice/palliative
     care^32^ **in the 1 year prior or within 60 days after** the
@@ -169,8 +169,6 @@ C48, C26, C45; ICD-9: 158
 C90.30, C90.31, C90.32
 
 ^30^ ICD-10 tracheal: C33; ICD-9: 162
-
-^31^ ICD-10 kidney: C64.9
 
 ^32^ ICD-10: Z51.5, or consult code entry for completed
 hospice/palliative care consult, or consult with Veterans Affairs

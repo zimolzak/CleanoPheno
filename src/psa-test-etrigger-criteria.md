@@ -90,8 +90,6 @@ where
 
 [^prostate_cancer]: ICD-10 prostate: C61
 
-[^kidney_cancer]: ICD-10 kidney: C64.9
-
 [^prostatitis]: ICD-10 acute prostatitis: N41.0
 
 [^prostate_biopsy]: CPT prostate biopsy: 55700
