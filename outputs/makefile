@@ -8,7 +8,7 @@ files +=     lung-cancer-missed-tests.md     lung-cancer-missed-tests.docx     l
 files +=    colon-cancer-missed-tests.md    colon-cancer-missed-tests.docx    colon-cancer-missed-tests.pdf
 files += prostate-cancer-missed-tests.md prostate-cancer-missed-tests.docx prostate-cancer-missed-tests.pdf
 files += hepatorenal.docx hepatorenal.pdf
-files += bladder.docx bladder.pdf
+files += bladder-cancer-missed-tests.docx bladder-cancer-missed-tests.pdf
 
 
 boarder_src = ../src/er-boarder-escalation.md
@@ -57,8 +57,10 @@ psa_src += $(m)brain_cancer.md
 psa_src += $(m)ovarian_cancer.md
 psa_src += $(m)pancreatic_cancer.md
 psa_src += $(m)lung_pleura_cancer.md
+psa_src += $(m)head_neck_cancer.md
 
-
+bladder_src = ../src/bladder.md
+bladder_src += $(m)head_neck_cancer.md
 
 
 all: $(files)
@@ -77,12 +79,6 @@ hepatorenal.docx: ../src/hepatorenal.md
 hepatorenal.pdf: ../src/hepatorenal.md
 	pandoc -o $@ $<
 
-bladder.docx: ../src/bladder.md
-	pandoc -o $@ $<
-
-bladder.pdf: ../src/bladder.md
-	pandoc -o $@ $<
-
 # "cat" commands to make intermediate .md files
 
 lung-cancer-missed-tests.md: $(lung_src)
@@ -93,6 +89,9 @@ colon-cancer-missed-tests.md: $(colon_src)
 
 prostate-cancer-missed-tests.md: $(psa_src)
 	cat $(psa_src) > $@
+
+bladder-cancer-missed-tests.md: $(bladder_src)
+	cat $(bladder_src) > $@
 
 er-boarder-escalation.md: $(boarder_src)
 	cat $(boarder_src) > $@

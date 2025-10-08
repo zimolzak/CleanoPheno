@@ -38,7 +38,6 @@ Exclude patients with any of the following:
     - esophageal cancer[^esophageal_cancer]
     - gastric cancer[^gastric_cancer]
     - head and neck cancer[^head_neck_cancer]
-    - metastases to neck nodes from unknown origin[^neck_mets]
     - brain cancer[^brain_cancer]
     - kidney cancer[^kidney_cancer]
     - ovarian cancer[^ovarian_cancer]
@@ -90,14 +89,6 @@ where
 ```
 
 [^prostate_cancer]: ICD-10 prostate: C61
-
-[^head_neck_cancer]: ICD-10 head and neck codes. Tongue: C02.9
-(unspecified), salivary gland: C08.9, gingivae: D00.03, floor of the
-mouth: C04, other sites within the oral cavity: C06.89, mouth: C06.9
-(unspecified), nasal cavity: C30.0, hypopharynx (unspecified): C13.9,
-nasal cavity: C30.0, larynx: C32.9
-
-[^neck_mets]: FIXME - list of ICD codes for neck metastases from unknown cancer is TBD.
 
 [^kidney_cancer]: ICD-10 kidney: C64.9
 

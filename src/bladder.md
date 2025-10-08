@@ -4,20 +4,22 @@
 
 Adapted from Murphy DR *et al. Appl Clin Inform* 2017;**8**:279--290.
 
-Any bold text below can be adjusted according to the needs of the user.
+Any bold text below can be adjusted according to the needs of the
+user.
 
 
 
 
 # Inclusion criteria
 
-1. Identify all patient records with suspicious tests, defined as *all* of the following:
+1. Identify all patient records with suspicious tests, defined as
+*all* of the following:
 
-    a. Has a urinalysis test^1^ dated from **January 1, 2015, to January
-    31, 2024**
+    a. Has a urinalysis test^1^ dated from **January 1, 2015, to
+    January 31, 2024**
 
-    b. The urinalysis has a red cell microscopy value of greater than **50
-    RBCs/HPF**. (The date of the urinalysis with this abnormality
+    b. The urinalysis has a red cell microscopy value of greater than
+    **50 RBCs/HPF**. (The date of the urinalysis with this abnormality
     will be called the *diagnostic clue* date.)
 
 
@@ -25,52 +27,37 @@ Any bold text below can be adjusted according to the needs of the user.
 
 # Exclusion Criteria
 
+Exclude if *any* of the following is present:
+
 1. Patients aged < 35 years
 
-2. Patient is listed as deceased within **60 days** after the diagnostic clue
+2. Patient is listed as deceased within **60 days** after the
+diagnostic clue
 
-3.  Previous bladder cancer^2^^3^ within **1 year** prior to diagnostic clue
+3. Previous bladder cancer^2^^3^ within **1 year** prior to diagnostic
+clue
 
 4.  Cystectomy^4^ **any time** prior to the diagnostic clue
 
 5.  Terminal illnesses or recent major diagnoses within **one year
     before or 60 days after** the diagnostic clue
 
-    a.  Lung cancer^5^
-
-    b.  Pancreatic cancer^6^
-
-    c.  Pleural cancer and mesothelioma^7^
-
-    d.  Leukemia (acute only)^8^
-
-    e.  Hepatocellular cancer^9^
-
-    f.  Gallbladder and biliary cancer^10^
-
-    g.  Esophageal cancer^11^
-
-    h.  Gastric cancer^12^
-
-    i. Head and Neck cancer: cancer in the tongue;^13^ major salivary
-    glands;^14^ gingivae;^15^ floor of the mouth;^16^other sites
-    within the oral cavity;^17^ oral;^18^ hypopharynx;^19^ nose and
-    sinuses;^20^ larynx;^21^ or with metastases to neck nodes from
-    unknown origin^22^
-
-    j.  Brain cancer^23^
-
-    k.  Uterine cancer^24^
-
-    l.  Ovarian cancer^25^
-
-    m.  Peritoneal,^26^ omental,^27^ and mesenteric cancer^28^
-
-    n.  Myeloma^29^
-
-    o.  Tracheal cancer^30^
-
-    p.  Renal cancer^31^
+    - lung cancer^5^
+    - pancreatic cancer^6^
+    - pleural cancer and mesothelioma^7^
+    - leukemia (acute only)^8^
+    - hepatocellular cancer^9^
+    - gallbladder and biliary cancer^10^
+    - esophageal cancer^11^
+    - gastric cancer^12^
+    - head and neck cancer[^head_neck_cancer]
+    - brain cancer^23^
+    - uterine cancer^24^
+    - ovarian cancer^25^
+    - peritoneal,^26^ omental,^27^ and mesenteric cancer^28^
+    - myeloma^29^
+    - tracheal cancer^30^
+    - renal cancer^31^
 
 6.  Encounter for hospice/palliative
     care^32^ **in the 1 year prior or within 60 days after** the
@@ -96,7 +83,6 @@ Any bold text below can be adjusted according to the needs of the user.
 10.  Recent procedure potentially causing hematuria
     (renal biopsy, prostate biopsy, renal stone surgery, *or* bladder
     surgery)^36^ **in the 3 months prior** to diagnostic clue.
-
 
 
 
@@ -139,12 +125,12 @@ ICD-9: 162.0, 162.2x, 162.3x, 162.4x, 162.5x, 162.8x, 162.9x, 163.xx,
 ^6^ ICD-10 pancreas: C25.0, C25.1, C25.2, C25.3, C25.4, C25.7, C25.8,
 C25.9; ICD-9: 157.xx
 
-^7^ ICD-10 pleural cancer and mesothelioma; C45.0, C45.1, C45.2, C45.7,
-C45.9; ICD-9 163.xx, 197.2
+^7^ ICD-10 pleural cancer and mesothelioma; C45.0, C45.1, C45.2,
+C45.7, C45.9; ICD-9 163.xx, 197.2
 
 ^8^ ICD-10 leukemia: C92.00, C92.4, C92.5, C92.60, C92.01, C92.41,
-C92.51, C92.02, C92.42, C92.52, C93.00, C93.01, C93.02, C94.00, C94.01,
-C94.02, C94.20, C94.21, C94.22, C95.00
+C92.51, C92.02, C92.42, C92.52, C93.00, C93.01, C93.02, C94.00,
+C94.01, C94.02, C94.20, C94.21, C94.22, C95.00
 
 
 
@@ -162,34 +148,15 @@ C22.9, C78.7; ICD-9: 155.0, 155.1, 155.2, 197.7
 ^10^ ICD-10 gallbladder and biliary cancer: C23, C24, C24.1, C24.8,
 C24.9; ICD-9: 156.xx
 
-^11^ ICD-10 esophageal: C15.3, C15.4, C15.5, C15.8, C15.9; ICD-9: 150.xx
+^11^ ICD-10 esophageal: C15.3, C15.4, C15.5, C15.8, C15.9; ICD-9:
+150.xx
 
 ^12^ ICD-10 gastric: C16.0, C16.1, C16.2, C16.3, C16.4, C16.5, C16.6,
 C16.8, C16.9; ICD-9: 151.xx
 
-^13^ ICD-10 head and neck. cancer in the tongue: C02.9
-(unspecified)
-
-^14^ ICD-10 salivary gland: C08.9
-
-^15^ ICD-10 gingivae: D00.03
-
-^16^ ICD-10 floor of the mouth: C04
-
-^17^ ICD-10 other sites within the oral cavity: C06.89
-
-^18^ ICD-10 mouth: C06.9 (unspecified)
-
-^19^ ICD-10 nasal cavity: C30.0
-
-^20^ ICD-10 hypopharynx (unspecified): C13.9 C30.0
-
-^21^ ICD-10 larynx: C32.9.00
-
-^22^ ICD-10 metastases to neck nodules from unknown origin: C77.0
-
 ^23^ ICD-10 brain: C71.0, C71.1, C71.2, C71.3, C71.4, C71.5, C71.6,
-C71.7, C71.8, C71.9, C79.31, C79.32, C79.49; ICD-9: 191.x, 198.3, 198.4
+C71.7, C71.8, C71.9, C79.31, C79.32, C79.49; ICD-9: 191.x, 198.3,
+198.4
 
 ^24^ ICD10 uterine: C57, C57.1, C57.2, C57.3 C57.4, DO6, DO7
 
@@ -205,9 +172,9 @@ C90.30, C90.31, C90.32
 
 ^31^ ICD-10 kidney: C64.9
 
-^32^ ICD-10: Z51.5 or consult code entry for completed
-hospice/palliative care consult or consult with primary stop code 351 or
-353. ICD-9: V66.7
+^32^ ICD-10: Z51.5, or consult code entry for completed
+hospice/palliative care consult, or consult with Veterans Affairs
+primary stop code 351 or 353. ICD-9: V66.7
 
 ^33^ Other sources of bladder/renal bleeding: ureteral stones,
 CPT 5061; ICD-10: N20.2
@@ -237,3 +204,4 @@ ICD-10: R93; Renal Ultrasound CPT: 76770, 76775.
 ^41^ Bladder biopsy: CPT 52204, 52250
 
 ^42^ Bladder surgery: CPT 00910
+
