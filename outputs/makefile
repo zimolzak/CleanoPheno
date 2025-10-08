@@ -64,6 +64,13 @@ bladder_src = ../src/bladder.md
 bladder_src += $(m)head_neck_cancer.md
 bladder_src += $(m)kidney_cancer.md
 bladder_src += $(m)lung_pleura_cancer.md
+bladder_src += $(m)pancreatic_cancer.md
+bladder_src += $(m)leukemia.md
+bladder_src += $(m)liver_cancer.md
+bladder_src += $(m)biliary_cancer.md
+bladder_src += $(m)esophageal_cancer.md
+bladder_src += $(m)gastric_cancer.md
+bladder_src += $(m)brain_cancer.md
 
 all: $(files)
 
