@@ -137,11 +137,9 @@ N20.0, N20.2
 
 [^pbx]: prostate bx codes FIXME Prostate biopsy CPT: 55700
 
-[^rss]: renal stone surg FIXME Renal
-stone surgery CPT: 50590
+[^rss]: ICD-10-PCS renal stone surgery:
 
-[^stent]: Stent CPT: 44402, 45327, 45337,
-45347, 45389
+[^stent]: ICD-10-PCS stent: 
 
 [^img]: Renal Ultrasound CPT: 76770, 76775. FIXME
 
