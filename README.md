@@ -15,9 +15,9 @@ is manuscript citations.
 
 - [x] Colon cancer
 - [x] Lung cancer
-- [ ] Liver cancer: `Hepatocellular Carcinoma Trigger Criteria.doc`
+- [x] Liver cancer (Word document only)
 - [x] Bladder cancer
-- [ ] Breast cancer: `Breast Cancer Trigger Criteria.docx`
+- [x] Breast cancer (Word document only)
 - [x] Prostate cancer
 - [ ] Thyroid dysfunction
 - [ ] Hyperkalemia
